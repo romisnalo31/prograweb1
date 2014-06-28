@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Formulario 1</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css" />
+	</head>
+	<body background="images/bg.jpg">
+		<table border="1" align="center" class="menu">
+			<tr>
+				<th><a href="index.html">Index</a></th>
+				<th><a href="form2.html">Formulario 2</a></th>
+			</tr>
+		</table>
+		<div align="center">
+			<img width="960" height="556" src="images/logoMundial2014.jpg" />
+		</div>
+        <div>
+        <form method="post" action="">
+        	<label for="id_usuario">Cree un Nombre de Usuario</label>
+            <input type="text" id="id_usuario" name="id_usuario" required/>
+            <label for="id_nota1" style="color:#F00"> Nota:</label><label for="id_nota2"> Los nombres de usuario son importantes...</label>
+            <label for="id_nota1" style="color:#00F;text-decoration:underline"> Haga click aqu&iacute; para saber sobre estos detalles</label><br>
+            <label for="id_contraseña">Cree una Contrase&ntilde;a</label>
+            <input type="text" id="id_contraseña" name="id_contraseña" required/><br>
+            <label for="id_comprobacion">Reingrese su Contrase&ntilde;a</label>
+            <input type="text" id="id_comprobacion" name="id_comprobacion" required/><br>
+            <br>
+            <label for="id_saludo">Saludo</label>
+            <select name="id_salud"> 
+            	<option value="">Seleccionar</option>
+                <option value="Sr.">Sr.</option>
+                <option value="Sra.">Sra.</option>
+                <option value="Sta.">Sta.</option>
+            </select><br>
+            <label for="id_nombre">Nombre</label>
+            <input type="text" id="id_nombre" name="id_nombre" required/><br>
+            <label for="id_apellido">Apellidos</label>
+            <input type="text" id="id_apellido" name="id_apellido" required/><br>
+            <br>
+            <label for="id_email1">Correo Electr&oacute;nico de Preferencia</label>
+            <input type="text" id="id_email1" name="id_email1" required/><br>
+            <label for="id_email2">Reingrese Correo Electr&oacute;nico de Preferencia</label>
+            <input type="text" id="id_email2" name="id_email2" required/><br>
+            <br>
+            <label for="id_tel1">N&uacute;mero de Tel&eacute;fono Principal</label>
+            <input type="text" id="id_tel1" name="id_tel1" required/>
+            <label for="id_ext1"> Ext.</label>
+            <input type="text"style="width:40px;" id="id_ext1" name="id_ext1" required/>
+            <label for="id_tipotel1"> Tipo</label>
+            <select name="id_tipotel1"> 
+            	<option value="">Seleccionar</option>
+                <option value="Celular">Celular</option>
+                <option value="Residencia">Residencia</option>
+                <option value="Oficina">Oficina</option>
+                <option value="Otro">Otro</option>
+            </select><br>
+            <label for="id_tel2">N&uacute;mero de Tel&eacute;fono Secundario</label>
+            <input type="text" id="id_tel2" name="id_tel2" required/>
+            <label for="id_ext2"> Ext.</label>
+            <input type="text"style="width:40px;" id="id_ext2" name="id_ext2" required/>
+            <label for="id_tipotel2"> Tipo</label>
+            <select name="id_tipotel2"> 
+            	<option value="">Seleccionar</option>
+                <option value="Celular">Celular</option>
+                <option value="Residencia">Residencia</option>
+                <option value="Oficina">Oficina</option>
+                <option value="Otro">Otro</option>
+            </select><br>
+            <br>
+            <label for="id_direccion1">Direcci&ocute;n Postal</label>
+            <input type="text" id="id_direccion1" name="id_direccion1" required/><br>
+            <label for="id_direccion2">Segunda Direcci&ocute;n Postal (Opcional)</label>
+            <input type="text" id="id_direccion2" name="id_direccion2" /><br>
+            <label for="id_ciudad">Ciudad</label>
+            <input type="text" style="width:100px;" id="id_ciudad" name="id_ciudad" required/><br>
+            <label for="id_estado">Estado/Provincia</label>
+            <input type="text" style="width:60px;" id="id_estado" name="id_estado" required/><br>
+            <label for="id_cp">C&oacute;digo Postal</label>
+            <input type="text" style="width:75px;" id="id_cp" name="id_cp" required/><br>
+            <br>
+            <input type="submit" value="Guardar">
+        </form>
+        </div>
+	</body>
+</html>

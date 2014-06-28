@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>Formulario 2</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css" />
+	</head>
+	<body background="images/bg.jpg">
+		<table border="1" align="center" class="menu">
+			<tr>
+				<th><a href="index.html">Index</a></th>
+				<th><a href="form1.html">Formulario 1</a></th>
+			</tr>
+		</table>
+		<div align="center">
+			<img width="960" height="556" src="images/logoMundial2014.jpg" />
+		</div>
+        <div>
+        <form method="post" action="">
+        	<label for="id_msj1">Los campos con</label><label style="color:#F00" for="id_msj2"> *</label><label for="id_msj3"> son requeridos</label><br>
+            <label style="color:#0C0" for="id_datosP1">Datos Personales</label><br>
+            <label style="color:#0C0" for="id_datosP2">.................................</label><br>
+        	<label for="id_nombre">Nombre</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_nombre" name="id_nombre" required/><br>
+            <label for="id_apellidoP">Apellido Paterno</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_apellidoP" name="id_apellidoP" required/><br>
+            <label for="id_apellidoM">Apellido Materno</label><br>
+            <input type="text" id="id_apellidoM" name="id_apellidoM" ><br>
+            <label for="id_fechaN">Fecha de Nacimiento</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_fechaN" name="id_fechaN" required/><br>
+            <label for="id_sexo">Sexo</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <select name="id_sexo" required> 
+            	<option value="">Seleccionar</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select required><br>
+            <label for="id_curp">Curp</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_curp" name="id_curp" required/>
+            <input type="submit" id="id_botonCurp" name="id_botonCurp" value="Consulte Curp"/><br>
+            <label for="id_eCivil">Estado Civil</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <select name="id_eCivil" required> 
+            	<option value="">Seleccionar</option>
+                <option value="Soltero(a)">Soltero(a)</option>
+                <option value="Casado(a)">Casado(a)</option>
+                <option value="Viudo(a)">Viudo(a)</option>
+                <option value="Unión Libre">Unión Libre</option>
+            </select required><br>
+            <br>
+            <label style="color:#0C0" for="id_datosC1">Datos de Contacto</label><br>
+            <label style="color:#0C0" for="id_datosC2">.................................</label><br>
+            <label for="id_calle">Calle</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_calle" name="id_calle" required/><br>
+            <label for="id_numcalle">N&uacute;mero</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_numcalle" name="id_numcalle" required/><br>
+            <label for="id_colonia">Colonia</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_colonia" name="id_colonia" required/><br>
+            <label for="id_localidad">Locailidad</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_localidad" name="id_localidad" required/><br>
+            <label for="id_cp">C&oacute;digo Postal</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_cp" name="id_cp" required/><br>
+            <label for="id_tel">Tel&eacute;fono</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_tel" name="id_tel" required/><br>
+            <label for="id_email">Correo Electr&oacute;nico</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_email" name="id_email" required/><br>
+            <br>
+            <label style="color:#0C0" for="id_datosC1">Lugar de Nacimiento</label><br>
+            <label style="color:#0C0" for="id_datosC2">.................................</label><br>
+            <label for="id_pais">Pais</label><br>
+            <select name="id_pais"> 
+            	<option value="">Seleccionar</option>
+                <option value="Mexico">M&eacute</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Alemania">Alemania</option>
+                <option value="USA">USA</option>
+            </select><br>
+            <label for="id_estado">Estados</label><br>
+            <select name="id_estado"> 
+            	<option value="">Seleccionar</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Queretaro">Quer&eacute;taro</option>
+                <option value="Mérida">M&eacute;rida</option>
+            </select><br>
+            <label for="id_municipio">Municipio</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <select name="id_municipio"> 
+            	<option value="">Seleccionar</option>
+                <option value="Mexico">M&eacute</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Alemania">Alemania</option>
+                <option value="USA">USA</option>
+            </select><br>
+            <br>
+            <label style="color:#0C0" for="id_datosC1">Especialidad a Cursar</label><br>
+            <label style="color:#0C0" for="id_datosC2">.................................</label><br>
+            <label for="id_especialidad">Especialidad</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <select name="id_especialidad"> 
+            	<option value="">Seleccionar</option>
+                <option value="Sistemas">Sistemas</option>
+                <option value="Informatica">Inform&aacute;tica</option>
+                <option value="Industrial">Industrial</option>
+                <option value="Administracion">Administraci&oacute;n</option>
+            </select><br>
+            <label style="color:#0C0" for="id_datosC1">Lugar donde Realiz&oacute; sus Estudios</label><br>
+            <label style="color:#0C0" for="id_datosC2">.................................</label><br>
+            <label for="id_estadoE">Estados</label><br>
+            <select name="id_estadoE"> 
+            	<option value="">Seleccionar</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Queretaro">Quer&eacute;taro</option>
+                <option value="Mérida">M&eacute;rida</option>
+            </select><br>
+            <label for="id_municipioE">Municipio</label>
+            <select name="id_municipioE"> 
+            	<option value="">Seleccionar</option>
+                <option value="Mexico">M&eacute</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Alemania">Alemania</option>
+                <option value="USA">USA</option>
+            </select><br>
+            <label for="id_escuela">Escuela de Procedencia</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <select name="id_escuela"> 
+            	<option value="">Seleccionar</option>
+                <option value="Mexico">Marista Celaya</option>
+                <option value="Brasil">Ateneo</option>
+                <option value="Alemania">CBTIS</option>
+                <option value="USA">CTIS</option>
+            </select><br>
+            <label for="id_peomedio">Promedio</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <input type="text" id="id_peomedio" name="id_peomedio" required/><br>
+            <br>
+            <label for="id_financiamiento">Tipo de Financiamiento</label><label style="color:#F00" for="id_msj2"> *</label><br>
+            <select name="id_financiamiento"> 
+            	<option value="">Seleccionar</option>
+                <option value="Mexico">Beca</option>
+                <option value="Brasil">Pr&eacute;stamo</option>
+                <option value="Alemania">Financiamiento</option>
+            </select><br>
+            <input type="submit" id="id_peomedio" name="id_peomedio" value="Aceptar"/><br>
+        </form>
+        </div>
+	</body>
+</html>
