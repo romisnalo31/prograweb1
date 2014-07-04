@@ -1,0 +1,58 @@
+<html>
+	<head>
+    	<script type="text/javascript" src="js/jquery.min.js"/></script>
+        <script>
+			$(document).ready(
+				function(){
+					//alert('Hola JavaSccript');
+					alert($('#elemento1').css('fontSize'));
+					$('#elemento1').css('fontSize', '100px');
+					alert($('#elemento1').css('fontSize'));
+					$('#elemento1').hide('slow');
+					$('#elemento1').show('slow');
+					$('#elemento1').click(function()
+						{
+							$(this).hide('slow');
+						}
+					);
+					$('.titulo').click(function()
+						{
+							$(this).css('color','red');
+							$('h1').addClass('centrado'); 
+						}
+					);
+					$('#boton').click(function()
+						{
+							alert($('#input1').val());
+						}
+					);
+					$('#botonSuma').click(function()
+						{
+							alert(parseInt($('#inputS1').val())+parseInt($('#inputS2').val()));
+						}
+					);
+				}
+				);
+		</script>
+        <link rel="stylesheet" type="text/css" href="css/p.css" />
+    </head>
+    <body>
+    	<div id="container" class="elemento2">
+        	<h1 id="titulo">
+            	<p class="parrafo" id="elemento1">Ponies</p>
+            </h1>
+        </div>
+        <div>
+        	<h1 class="titulo">Pokemon</h1>
+            <h2 class="titulo">Podrigo</h2>
+            <input type="text" id="input1">
+            <button id="boton">Mostrar</button>
+        </div>
+        <div>
+        	<h3>Sumar 2 n&uacute;meros</h3>
+            <input type="text" id="inputS1">+
+            <input type="text" id="inputS2">
+            <button id="botonSuma">Sumar</button>
+        </div>
+    </body>
+</html>
