@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Examen 2</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery.min.js"/></script>
+    <script>
+			$(document).ready(
+				function(){
+					//alert('Hola JavaSccript');
+					$('#botonMostrar').click(function()
+						{
+							$('#formEquipo').show('slow');
+							$('#formIntegrante').show('slow');
+						}
+					);
+					$('#radioJugador').click(function()
+						{
+							$('#formJugador').show('slow');
+							$('#formEntrenador').hide('slow'); 
+						}
+					);
+					$('#radioEntrenador').click(function()
+						{
+							$('#formJugador').hide('slow');
+							$('#formEntrenador').show('slow');
+						}
+					);
+					
+				}
+				);
+		</script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Registro FIFA</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Examen 2, 5 de julio de 2014</h1>
+        <p>Formularios de registro.</p>
+        <p><a class="btn btn-primary btn-lg" role="button" id="botonMostrar">Mostrar Formularios</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          
+          <form role="form" id="formEquipo" style="display:none">
+          <h2>Equipo</h2>
+              <div class="form-group">
+                <label for="nombreEquipo">Nombre</label>
+                <input type="text" class="form-control" id="nombreEquipo" placeholder="Nombre del equipo" name="nombreEquipo">
+              </div>
+              <div class="form-group">
+                <label for="escudo">Escudo</label>
+                <input type="file" id="escudo" name="escudo">
+                <p class="help-block">Seleccione la imagen del escudo.</p>
+              </div>
+              Pa&iacute;s
+              <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropPais" data-toggle="dropdown">
+                Seleccionar
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">M&eacute;xico</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Brasil</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Alemania</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Croacia</a></li>
+              </ul>
+            </div>
+                
+              <button type="submit" class="btn btn-default">Guardar</button>
+          </form>
+        </div>
+        <div class="col-md-4">
+          
+          <form role="form" id="formIntegrante" style="display:none">
+          <h2>Integrante</h2>
+              <div class="form-group">
+                <label for="nombreIntegrante">Nombre</label>
+                <input type="text" class="form-control" id="nombreIntegrante" placeholder="Nombre(s) del integrante" name="nombreIntegrante">
+              </div>
+              <div class="form-group">
+                <label for="apellidoIntegrante">Apellido</label>
+                <input type="text" class="form-control" id="apellidoIntegrante" placeholder="Apellidos(s) del integrante" name="apellidoIntegrante">
+              </div>
+              <div class="form-group">
+                <label for="edadIntegrante">Edad</label>
+                <input type="text" class="form-control" id="edadIntegrante" placeholder="Edad del integrante" name="edadIntegrante">
+              </div>
+              <div class="form-group">
+                <label for="estaturaIntegrante">Estatura</label>
+                <input type="text" class="form-control" id="estaturaIntegrante" placeholder="Estatura del integrante" name="estaturaIntegrante">
+              </div>
+              <div class="form-group">
+                <label for="pesoIntegrante">Peso</label>
+                <input type="text" class="form-control" id="pesoIntegrante" placeholder="Peso del integrante" name="pesoIntegrante">
+              </div>
+              <div class="form-group">
+                <label for="foto">Foto</label>
+                <input type="file" id="foto" name="foto">
+                <p class="help-block">Seleccione la imagen del escudo.</p>
+              </div>
+              Equipo
+              <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropEquipo" data-toggle="dropdown">
+                Seleccionar
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">M&eacute;xico</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Brasil</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Alemania</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Croacia</a></li>
+              </ul>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios1" id="radioJugador" value="jugador">
+                    Jugador
+                  </label>
+              </div>
+              <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios1" id="radioEntrenador" value="entrenador">
+                    Entrenador
+                  </label>
+              </div>
+              </div>
+          </form>
+       </div>
+       <div class="row">
+        <div class="col-md-4">
+        <div class="row">
+          
+          <form role="form" id="formJugador" style="display:none">
+          <h2>Jugador</h2>
+              <div class="form-group">
+                <label for="numeJugador">N&uacute;mero</label>
+                <input type="text" class="form-control" id="numeJugador" placeholder="Número de la playera" name="numeJugador">
+              </div>
+              <div class="form-group">
+              	Posici&oacute;n
+              <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropPosicion" data-toggle="dropdown">
+                    Seleccionar
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Defensa</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Delantero</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Portero</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Lateral</a></li>
+                  </ul>
+              </div>
+              </div>
+              <button type="submit" class="btn btn-default">Guardar</button>
+          </form>
+          </div>
+          <div class="row">
+          
+          <form role="form" id="formEntrenador" style="display:none">
+          <h2>Entrenador</h2>
+              <div class="form-group">
+                <label for="paisEntrenador">Pa&iacute;s</label>
+                <input type="text" class="form-control" id="paisEntrenador" placeholder="Nacionalidad del entrenador" name="paisEntrenador">
+              </div>
+			<button type="submit" class="btn btn-default">Guardar</button>
+          </form>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"/></script>
+  </body>
+</html>

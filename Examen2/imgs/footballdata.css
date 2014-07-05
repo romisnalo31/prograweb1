@@ -1,0 +1,2835 @@
+th {
+	text-align: center;
+}
+td {
+	text-align: center;
+}
+.table {
+	border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.table caption {
+	text-align: left; color: rgb(153, 153, 153); text-transform: uppercase; line-height: 1.54; font-size: 14px; font-weight: 700;
+}
+.table caption.caption-link {
+	display: none;
+}
+.table > thead > tr > th {
+	padding: 0px; text-align: center; vertical-align: middle;
+}
+.table > tbody > tr > th {
+	padding: 0px; text-align: center; vertical-align: middle;
+}
+.table > tfoot > tr > th {
+	padding: 0px; text-align: center; vertical-align: middle;
+}
+.table > thead > tr > td {
+	padding: 0px; text-align: center; vertical-align: middle;
+}
+.table > tbody > tr > td {
+	padding: 0px; text-align: center; vertical-align: middle;
+}
+.table > tfoot > tr > td {
+	padding: 0px; text-align: center; vertical-align: middle;
+}
+.table > thead > tr > th {
+	color: rgb(153, 153, 153); font-weight: normal; vertical-align: middle; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.table > thead > tr > th abbr {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.col-xs-7 .s {
+	margin-bottom: 12px;
+}
+.col-xs-6 .s {
+	margin-bottom: 12px;
+}
+.col-xs-7 .s .s-status {
+	line-height: 26px; font-size: 11px; min-height: 26px;
+}
+.col-xs-6 .s .s-status {
+	line-height: 26px; font-size: 11px; min-height: 26px;
+}
+.col-xs-7 .s .s-score {
+	line-height: 26px; font-size: 24px;
+}
+.col-xs-6 .s .s-score {
+	line-height: 26px; font-size: 24px;
+}
+.goal-counter .lb-goalcounter {
+	width: 316px; height: 178px; margin-top: 58px;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-goalcounter-data .lb-goalcounter-text {
+	top: -26px;
+}
+.live.mu .s-score .s-scoreText {
+	padding: 2px 6px; color: rgb(255, 255, 255); font-weight: 700; display: inline-block; -ms-zoom: 1; background-color: rgb(142, 198, 44);
+}
+.mu .icon-hl {
+	display: none;
+}
+.mu .icon-mrep {
+	display: none;
+}
+.result.mu .icon-hl {
+	background-position: 1px -4px; margin: 0px 1px -1px; width: 14px; height: 16px; display: inline-block; background-image: url("http://img.fifa.com/images/layout/icons/match_icons_xs.png?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.result.mu .icon-mrep {
+	background-position: 1px -25px; margin: 0px 1px -1px; width: 14px; height: 16px; display: inline-block; background-image: url("http://img.fifa.com/images/layout/icons/match_icons_xs.png?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.col-xs-3 .live.mu .s-score .s-scoreText {
+	width: 40px; font-weight: 400;
+}
+.t {
+	position: absolute; z-index: 1;
+}
+.t .t-n {
+	position: absolute;
+}
+.t .t-i {
+	position: absolute;
+}
+.t .t-n .t-nText {
+	vertical-align: middle; display: table-cell;
+}
+.t .t-i .t-nText {
+	vertical-align: middle; display: table-cell;
+}
+.t .t-n .t-i-wrap {
+	vertical-align: middle; display: table-cell;
+}
+.t .t-i .t-i-wrap {
+	vertical-align: middle; display: table-cell;
+}
+.t .t-n .t-nTri {
+	vertical-align: middle; display: table-cell;
+}
+.t .t-i .t-nTri {
+	vertical-align: middle; display: table-cell;
+}
+.t .t-n .t-nText {
+	color: rgb(71, 71, 71); text-transform: uppercase;
+}
+.t .t-i .t-nText {
+	color: rgb(71, 71, 71); text-transform: uppercase;
+}
+.t .t-i {
+	text-align: center;
+}
+.t .t-i img[class*='-logoPh'] {
+	left: 0px; top: 0px; position: absolute;
+}
+.t .t-i img[class*='-logo'] {
+	left: 0px; top: 0px; position: absolute;
+}
+.t .t-i img[class$='-logo'] {
+	z-index: 2; background-color: rgb(255, 255, 255);
+}
+.home.t {
+	left: 0px;
+}
+.home.t .t-i {
+	left: 0px;
+}
+.home.t .t-n {
+	left: 0px; text-align: left;
+}
+.away.t {
+	right: 0px;
+}
+.away.t .t-i {
+	right: 0px;
+}
+.away.t .t-n {
+	text-align: right; right: 0px;
+}
+.s {
+	margin: 0px auto; text-align: center; position: relative;
+}
+.col-xs-12 .t {
+	height: 80px;
+}
+.col-xs-12 .t .t-i + .t-n {
+	margin-left: 63px;
+}
+.col-xs-12 .home.t .t-i + .t-n {
+	margin-left: 63px;
+}
+.col-xs-12 .t .i-3.t-i + .t-n {
+	margin-left: 38px;
+}
+.col-xs-12 .home.t .i-3.t-i + .t-n {
+	margin-left: 38px;
+}
+.col-xs-12 .away.t .t-i + .t-n {
+	margin-right: 63px; margin-left: 0px;
+}
+.col-xs-12 .away.t .i-3.t-i + .t-n {
+	margin-right: 38px; margin-left: 0px;
+}
+.col-xs-12 .t-i .t-i-wrap {
+	height: 80px;
+}
+.col-xs-12 .t-n .t-nText {
+	height: 80px; line-height: 27px; font-size: 27px;
+}
+.col-xs-12 .t-n .kern.t-nText {
+	line-height: 1; font-size: 22px;
+}
+.col-xs-12 .t-n .t-nTri {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .s {
+	margin-bottom: 8px;
+}
+.col-xs-12 .s .s-status {
+	text-transform: uppercase; line-height: 26px; font-size: 11px; min-height: 26px;
+}
+.col-xs-12 .s .s-status-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .s .s-date-HHmm.s-score {
+	line-height: 26px; font-size: 27px;
+}
+.col-xs-9 .t .t-i + .t-n {
+	margin-left: 63px;
+}
+.col-xs-8 .t .t-i + .t-n {
+	margin-left: 63px;
+}
+.col-xs-9 .home.t .t-i + .t-n {
+	margin-left: 63px;
+}
+.col-xs-8 .home.t .t-i + .t-n {
+	margin-left: 63px;
+}
+.col-xs-9 .t .i-3.t-i + .t-n {
+	margin-left: 38px;
+}
+.col-xs-8 .t .i-3.t-i + .t-n {
+	margin-left: 38px;
+}
+.col-xs-9 .home.t .i-3.t-i + .t-n {
+	margin-left: 38px;
+}
+.col-xs-8 .home.t .i-3.t-i + .t-n {
+	margin-left: 38px;
+}
+.col-xs-9 .away.t .t-i + .t-n {
+	margin-right: 63px; margin-left: 0px;
+}
+.col-xs-8 .away.t .t-i + .t-n {
+	margin-right: 63px; margin-left: 0px;
+}
+.col-xs-9 .away.t .i-3.t-i + .t-n {
+	margin-right: 38px; margin-left: 0px;
+}
+.col-xs-8 .away.t .i-3.t-i + .t-n {
+	margin-right: 38px; margin-left: 0px;
+}
+.col-xs-9 .t-i .t-i-wrap {
+	height: 80px;
+}
+.col-xs-8 .t-i .t-i-wrap {
+	height: 80px;
+}
+.col-xs-9 .t-n .t-nText {
+	height: 80px; line-height: 24px; font-size: 24px;
+}
+.col-xs-8 .t-n .t-nText {
+	height: 80px; line-height: 24px; font-size: 24px;
+}
+.col-xs-9 .t-n .kern.t-nText {
+	line-height: 1; font-size: 18px;
+}
+.col-xs-8 .t-n .kern.t-nText {
+	line-height: 1; font-size: 18px;
+}
+.col-xs-9 .t-n .t-nTri {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-8 .t-n .t-nTri {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-9 .s {
+	margin-bottom: 20px;
+}
+.col-xs-8 .s {
+	margin-bottom: 20px;
+}
+.col-xs-9 .s .s-status {
+	text-transform: uppercase; line-height: 26px; font-size: 11px; min-height: 26px;
+}
+.col-xs-8 .s .s-status {
+	text-transform: uppercase; line-height: 26px; font-size: 11px; min-height: 26px;
+}
+.col-xs-9 .s .s-status-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-8 .s .s-status-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-9 .s .s-score {
+	line-height: 26px; font-size: 27px; min-height: 26px;
+}
+.col-xs-8 .s .s-score {
+	line-height: 26px; font-size: 27px; min-height: 26px;
+}
+.col-xs-7 .t .t-i + .t-n {
+	margin-left: 36px;
+}
+.col-xs-6 .t .t-i + .t-n {
+	margin-left: 36px;
+}
+.col-xs-7 .home.t .t-i + .t-n {
+	margin-left: 36px;
+}
+.col-xs-6 .home.t .t-i + .t-n {
+	margin-left: 36px;
+}
+.col-xs-7 .away.t .t-i + .t-n {
+	margin-right: 36px; margin-left: 0px;
+}
+.col-xs-6 .away.t .t-i + .t-n {
+	margin-right: 36px; margin-left: 0px;
+}
+.col-xs-7 .t-i .t-i-wrap {
+	height: 80px;
+}
+.col-xs-6 .t-i .t-i-wrap {
+	height: 80px;
+}
+.col-xs-7 .t-i .t-i-wrap .flag {
+	width: 32px; height: auto;
+}
+.col-xs-6 .t-i .t-i-wrap .flag {
+	width: 32px; height: auto;
+}
+.col-xs-7 .t-n .t-nText {
+	height: 80px; line-height: 24px; font-size: 21px;
+}
+.col-xs-6 .t-n .t-nText {
+	height: 80px; line-height: 24px; font-size: 21px;
+}
+.col-xs-7 .t-n .kern.t-nText {
+	line-height: 1; font-size: 18px;
+}
+.col-xs-6 .t-n .kern.t-nText {
+	line-height: 1; font-size: 18px;
+}
+.col-xs-7 .t-n .t-nTri {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-6 .t-n .t-nTri {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-7 .s .s-status {
+	text-transform: uppercase;
+}
+.col-xs-6 .s .s-status {
+	text-transform: uppercase;
+}
+.col-xs-7 .s .s-status-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-6 .s .s-status-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-7 .mu-reasonwin-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-6 .mu-reasonwin-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .t {
+	height: 60px;
+}
+.col-xs-4 .t .t-i + .t-n {
+	margin-left: 42px;
+}
+.col-xs-4 .home.t .t-i + .t-n {
+	margin-left: 42px;
+}
+.col-xs-4 .t .hidden.t-i + .t-n {
+	margin-left: 0px;
+}
+.col-xs-4 .home.t .hidden.t-i + .t-n {
+	margin-left: 0px;
+}
+.col-xs-4 .away.t .t-i + .t-n {
+	margin-right: 42px; margin-left: 0px;
+}
+.col-xs-4 .away.t .hidden.t-i + .t-n {
+	margin-right: 0px;
+}
+.col-xs-4 .t-i .t-i-wrap {
+	height: 60px;
+}
+.col-xs-4 .t-n {
+	height: 60px;
+}
+.col-xs-4 .t-n .t-nTri {
+	height: 60px; line-height: 24px; font-size: 19px;
+}
+.col-xs-4 .t-n .t-nText {
+	display: none;
+}
+.col-xs-4 .s {
+	width: 30%; margin-bottom: 3px;
+}
+.col-xs-4 .s .s-status {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .s .s-status-abbr {
+	margin: 4px 0px; height: 11px; text-align: center; text-transform: uppercase; line-height: 11px; font-size: 11px;
+}
+.col-xs-4 .s .s-score {
+	text-align: center; line-height: 21px; font-size: 18px;
+}
+.col-xs-3 .t .t-n {
+	top: 20px; width: 32px; text-align: center; line-height: 1.54; font-size: 14px;
+}
+.col-xs-3 .home.t .t-n {
+	top: 20px; width: 32px; text-align: center; line-height: 1.54; font-size: 14px;
+}
+.col-xs-3 .away.t .t-n {
+	top: 20px; width: 32px; text-align: center; line-height: 1.54; font-size: 14px;
+}
+.col-xs-3 .t-i .t-i-wrap .i-3-flag {
+	width: 32px;
+}
+.col-xs-3 .t-n .t-nText {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-3 .t-n .t-nTri {
+	width: 32px;
+}
+.col-xs-3 .s {
+	width: 55px;
+}
+.col-xs-3 .s .s-status {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-3 .s .s-status-abbr {
+	text-transform: uppercase; line-height: 11px; font-size: 11px; margin-bottom: 8px;
+}
+.col-xs-3 .s .s-score {
+	line-height: 21px; font-size: 18px;
+}
+.hp-match-strip {
+	position: relative;
+}
+.hp-match-strip::before {
+	display: table; content: " ";
+}
+.hp-match-strip::after {
+	display: table; content: " ";
+}
+.hp-match-strip::after {
+	clear: both;
+}
+.hp-match-strip h2 {
+	margin: 0px 10px; line-height: 45px; font-size: 24px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.hp-match-strip h2.no-border {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.hp-match-strip .cup-logo {
+	width: 316px; float: left;
+}
+.hp-match-strip .matches .time-converter {
+	top: 0px; right: 0px; position: absolute;
+}
+.hp-match-strip .matches .col-xs-3 .mu {
+	width: 100%; height: 60px; margin-bottom: 0px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-day {
+	display: none !important; visibility: hidden !important;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m-link {
+	margin: 0px; padding: 0px; height: 60px; min-height: 1px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m {
+	margin-left: 0px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .home.t .t-i-wrap {
+	height: 60px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .away.t .t-i-wrap {
+	height: 60px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .home.t .t-nTri {
+	height: 60px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .away.t .t-nTri {
+	height: 60px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .home.t .t-i .t-i-wrap .flag {
+	width: 32px; height: auto;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .away.t .t-i .t-i-wrap .flag {
+	width: 32px; height: auto;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .home.t .t-n {
+	top: 0px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .away.t .t-n {
+	top: 0px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .home.t .t-n .t-nTri {
+	line-height: 24px; font-size: 19px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .away.t .t-n .t-nTri {
+	line-height: 24px; font-size: 19px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .home.t .t-n {
+	left: 37px; width: 40px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .away.t .t-n {
+	width: 40px; right: 37px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .s .s-fixture .s-status {
+	margin: 4px 0px; height: 11px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .s .s-fixture .s-status-abbr {
+	margin: 4px 0px; height: 11px;
+}
+.hp-match-strip .matches .col-xs-3 .mu .mu-m .s .s-fixture .s-score {
+	line-height: 21px; font-size: 18px;
+}
+.hp-match-strip .matches .col-xs-4 .mu {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.hp-match-strip .matches .col-xs-4 .mu .mu-m-link {
+	margin: 0px; padding: 0px;
+}
+.hp-match-strip .matches .col-xs-4 .mu .mu-i .mu-i-date {
+	display: none !important; visibility: hidden !important;
+}
+.hp-match-strip .matches .col-xs-4 .mu .mu-m {
+	margin-left: 0px;
+}
+.hp-match-strip .matches .col-xs-4 .mu .mu-m .t-i .t-i-wrap .flag {
+	width: 32px; height: auto;
+}
+.hp-match-strip .matches .col-xs-6 .mu {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.hp-match-strip .matches .col-xs-6 .mu .mu-i {
+	display: none !important; visibility: hidden !important;
+}
+.hp-match-strip .matches .col-xs-6 .mu .mu-day {
+	display: none !important; visibility: hidden !important;
+}
+.hp-match-strip .matches .col-xs-6 .mu .mu-m {
+	margin-left: 0px;
+}
+.hp-match-strip .matches .col-xs-12 .mu-i {
+	display: none !important; visibility: hidden !important;
+}
+.hp-match-strip .matches .col-xs-12 .mu-m {
+	margin-left: 0px;
+}
+.time-converter {
+	padding: 0px 10px; height: 30px; text-align: right; line-height: 30px; font-size: 12px; position: relative;
+}
+.time-converter span {
+	color: rgb(0, 135, 230); padding-left: 20px; position: relative; cursor: pointer;
+}
+.time-converter span::before {
+	left: 0px; top: 50%; width: 16px; height: 16px; text-align: center; color: rgb(0, 135, 230); line-height: 16px; font-family: "fifa-icons"; font-size: 16px; font-style: normal; font-weight: normal; margin-top: -8px; position: absolute; content: "\e601"; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.time-converter span > .before {
+	left: 0px; top: 50%; width: 16px; height: 16px; text-align: center; color: rgb(0, 135, 230); line-height: 16px; font-family: "fifa-icons"; font-size: 16px; font-style: normal; font-weight: normal; margin-top: -8px; position: absolute; content: "\e601"; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.col-xs-12 .time-converter {
+	padding: 0px;
+}
+.match-list .match-list-round h2 {
+	height: 65px; color: rgb(153, 153, 153); text-transform: uppercase; line-height: 65px; font-size: 24px; margin-left: 10px;
+}
+.match-list .match-list-date {
+	margin-top: 20px; margin-bottom: 40px;
+}
+.match-list .match-list-game {
+	margin-top: 20px; margin-bottom: 40px;
+}
+.match-list .match-list-date h3 {
+	height: 50px; color: rgb(71, 71, 71); line-height: 50px; padding-left: 10px; font-size: 21px;
+}
+.match-list .match-list-game h3 {
+	height: 50px; color: rgb(71, 71, 71); line-height: 50px; padding-left: 10px; font-size: 21px;
+}
+.match-list .match-list-date h3 .h3-wrap {
+	width: 988px; height: 50px; border-bottom-color: rgb(71, 71, 71); border-bottom-width: 1px; border-bottom-style: solid; display: table-cell;
+}
+.match-list .match-list-game h3 .h3-wrap {
+	width: 988px; height: 50px; border-bottom-color: rgb(71, 71, 71); border-bottom-width: 1px; border-bottom-style: solid; display: table-cell;
+}
+.round-anchored.match-list .match-list-round {
+	padding-top: 30px;
+}
+.round-anchored.match-list .match-list-date {
+	margin-bottom: 30px;
+}
+.match-list-bracket h2 {
+	height: 65px; color: rgb(153, 153, 153); text-transform: uppercase; line-height: 65px; font-size: 24px; margin-left: 10px;
+}
+.match-list-bracket .m-row {
+	padding: 5px;
+}
+.match-list-bracket .mu {
+	margin: 0px 5px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; display: inline;
+}
+.match-list-bracket .mu .mu-i-datetime {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .mu .mu-i-date {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .mu .mu-i-group {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .mu .mu-i-location {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .mu .mu-i {
+	text-align: center; float: none;
+}
+.match-list-bracket .mu .mu-i .mu-i-matchnum {
+	line-height: 12px; font-weight: 700;
+}
+.match-list-bracket .mu .mu-m {
+	width: 100%; vertical-align: middle; display: block;
+}
+.match-list-bracket .mu .mu-m .t .t-n {
+	top: 15px;
+}
+.match-list-bracket .mu .mu-m .t .t-n .t-nText {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .mu .mu-m .t .t-n .t-nTri {
+	width: 24px; text-align: center; font-weight: 700;
+}
+.match-list-bracket .mu .mu-m .t .t-i {
+	top: 0px; display: block !important; visibility: visible !important;
+}
+.match-list-bracket .mu .mu-m .t .t-i .t-i-wrap .flag {
+	width: 24px; height: auto; vertical-align: top;
+}
+.match-list-bracket .mu .mu-m .t .t-i .t-i-wrap .fake.flag {
+	height: 16px; background-color: rgb(255, 255, 255);
+}
+.match-list-bracket .mu .mu-m .home.t {
+	margin-left: 10px; float: left;
+}
+.match-list-bracket .mu .mu-m .away.t {
+	margin-right: 10px; float: right;
+}
+.match-list-bracket .fixture.mu .mu-m .home.t {
+	top: 5px;
+}
+.match-list-bracket .fixture.mu .mu-m .away.t {
+	top: 5px;
+}
+.match-list-bracket .fixture.mu .mu-m .s .s-score .s-scoreText {
+	line-height: 22px; font-size: 16px; font-weight: 700;
+}
+.match-list-bracket .live.mu .mu-i .mu-i-matchnum {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .live.mu .mu-day {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .live.mu .mu-m .home.t {
+	top: 20px;
+}
+.match-list-bracket .live.mu .mu-m .away.t {
+	top: 20px;
+}
+.match-list-bracket .live.mu .mu-m .s .s-status {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .live.mu .mu-m .s .s-status-abbr {
+	line-height: 22px; font-size: 12px;
+}
+.match-list-bracket .live.mu .mu-m .s .s-score .s-scoreText {
+	line-height: 16px; font-size: 16px; font-weight: 700;
+}
+.match-list-bracket .result.mu .mu-i .mu-i-matchnum {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .result.mu .mu-day {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .result.mu .mu-m .home.t {
+	top: 20px;
+}
+.match-list-bracket .result.mu .mu-m .away.t {
+	top: 20px;
+}
+.match-list-bracket .result.mu .mu-m .s .s-status {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .result.mu .mu-m .s .s-score .s-scoreText {
+	line-height: 16px; font-size: 16px; font-weight: 700;
+}
+.match-list-bracket .result.mu .mu-m .mu-reasonwin {
+	display: none !important; visibility: hidden !important;
+}
+.match-list-bracket .result.mu .mu-m .mu-reasonwin-abbr {
+	margin-top: 16px;
+}
+.remove-mu-location .mu .mu-i-location {
+	display: none !important; visibility: hidden !important;
+}
+.remove-mu-group .mu .mu-i-group {
+	display: none !important; visibility: hidden !important;
+}
+.nomatches-message {
+	text-align: center; margin-top: 16px;
+}
+.p-i-1 img.player {
+	width: 80px; height: auto;
+}
+.p-i-2 img.player {
+	width: 148px; height: auto;
+}
+.p-i-3 img.player {
+	width: 232px; height: auto;
+}
+.p-i-4 img.player {
+	width: 316px; height: auto;
+}
+.p-i-prt-1 img.player {
+	width: 80px; height: 112px;
+}
+.p-i-prt-2 img.player {
+	width: 148px; height: 197px;
+}
+.p-i-prt-3 img.player {
+	width: 232px; height: 309px;
+}
+.p-i-prt-4 img.player {
+	width: 316px; height: 421px;
+}
+.goal-counter .lb-goalcounter {
+	background-position: left bottom; color: rgb(255, 255, 255); position: relative; background-image: url("http://img.fifa.com/images/layout/liveblog/fwc-element.png?v=130487182925765039"); background-repeat: no-repeat; background-color: rgb(2, 62, 132);
+}
+.goal-counter .lb-goalcounter h3 {
+	margin: 0px 10px; color: white; text-transform: uppercase; line-height: 30px; padding-left: 110px; font-size: 13px; border-bottom-color: rgb(40, 91, 150); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-link-wrap {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-link-wrap:hover {
+	text-decoration: none;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-link-wrap:hover .lb-post-title {
+	text-decoration: none;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-link-wrap:hover .thome {
+	text-decoration: none;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-link-wrap:hover .score {
+	text-decoration: none;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-link-wrap:hover .tawat {
+	text-decoration: none;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-link-wrap:hover .lb-p-text {
+	text-decoration: none;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-link-wrap:hover .lb-p-name {
+	text-decoration: none;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap {
+	position: relative;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-goalcounter-data {
+	border: currentColor; border-image: none; left: 10px; top: 0px; line-height: 1; position: absolute;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-goalcounter-data .lb-goalcounter-goals {
+	font-size: 65px; font-weight: bold;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-goalcounter-data .lb-goalcounter-text {
+	background-position: -170px -442px; left: 0px; width: 100px; height: 20px; color: transparent; display: block; position: absolute; background-image: url("http://img.fifa.com/images/layout/sponsors/fifa_partners.gif?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p {
+	padding: 20px 0px; margin-left: 130px; position: relative;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p .lb-p-text {
+	color: rgb(148, 163, 192); text-transform: uppercase; font-size: 12px;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p .lb-p-img {
+	border-radius: 50%; border: 2px solid rgb(255, 255, 255); border-image: none; width: 74px; height: 74px; overflow: hidden; margin-top: 5px; float: none;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p .lb-p-img img.player {
+	width: 70px; height: auto;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p-content {
+	margin: 0px;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p-content .lb-p-text {
+	left: 0px; top: 2px; position: absolute;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p-content .lb-m {
+	left: 0px; top: 125px; color: rgb(148, 163, 192); line-height: 19px; font-size: 12px; position: absolute;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p-content .lb-m .score {
+	padding: 0px 5px;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p-content .lb-t {
+	left: 80px; top: 80px; color: rgb(148, 163, 192); position: absolute;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p-content .lb-t .lb-t-n {
+	margin-left: 5px; display: inline-block; -ms-zoom: 1;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p-content .lb-t .lb-t-i {
+	display: inline-block; -ms-zoom: 1;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p-content .lb-t .lb-t-i .flag {
+	vertical-align: sub;
+}
+.goal-counter .lb-goalcounter .lb-goalcounter-wrap .lb-p-content .lb-p-name {
+	margin: 5px 0px; line-height: 1.3; font-size: 16px; font-weight: 700;
+}
+.mu-more {
+	width: 80px; height: 80px; vertical-align: middle; display: table-cell;
+}
+.col-xs-12 .mh .s .s-status {
+	line-height: 19px; font-size: 14px; min-height: 19px;
+}
+.lineup .table td {
+	padding: 4px 0px;
+}
+.squadlist .table td {
+	padding: 4px 0px;
+}
+.lineup .table th {
+	padding: 4px 0px;
+}
+.squadlist .table th {
+	padding: 4px 0px;
+}
+.lineup .table td.home {
+	padding-left: 36px;
+}
+.squadlist .table td.home {
+	padding-left: 36px;
+}
+.lineup .table td.away {
+	padding-left: 36px;
+}
+.squadlist .table td.away {
+	padding-left: 36px;
+}
+.lineup .fielded.table td.home:hover {
+	background-color: rgb(235, 235, 235);
+}
+.squadlist .fielded.table td.home:hover {
+	background-color: rgb(235, 235, 235);
+}
+.lineup .substitutes.table td.home:hover {
+	background-color: rgb(235, 235, 235);
+}
+.squadlist .substitutes.table td.home:hover {
+	background-color: rgb(235, 235, 235);
+}
+.lineup .fielded.table td.away:hover {
+	background-color: rgb(235, 235, 235);
+}
+.squadlist .fielded.table td.away:hover {
+	background-color: rgb(235, 235, 235);
+}
+.lineup .substitutes.table td.away:hover {
+	background-color: rgb(235, 235, 235);
+}
+.squadlist .substitutes.table td.away:hover {
+	background-color: rgb(235, 235, 235);
+}
+.lineup .match-people {
+	line-height: 22px; font-size: 16px;
+}
+.squadlist .match-people {
+	line-height: 22px; font-size: 16px;
+}
+.lineup .match-people label {
+	padding-right: 13px;
+}
+.squadlist .match-people label {
+	padding-right: 13px;
+}
+.mu {
+	line-height: 19px; font-size: 12px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.mu::before {
+	display: table; content: " ";
+}
+.mu::after {
+	display: table; content: " ";
+}
+.mu::after {
+	clear: both;
+}
+.mu > a {
+	color: rgb(102, 102, 102); text-decoration: none; display: block;
+}
+.mu > a:hover {
+	background-color: rgb(242, 242, 242);
+}
+.mu > a:hover * {
+	text-decoration: none;
+}
+.mu > a:hover .s-status {
+	text-decoration: none;
+}
+.mu > a:hover .s-status-abbr {
+	text-decoration: none;
+}
+.mu > a:hover .s-score {
+	text-decoration: none;
+}
+.mu > a:hover .mu-reasonwin {
+	text-decoration: none;
+}
+.mu > a .s-score {
+	color: rgb(0, 135, 230);
+}
+.mu .mu-i {
+	text-align: left; float: left;
+}
+.mu .mu-i .mu-i-group {
+	text-transform: uppercase;
+}
+.mu .mu-i .mu-i-datetime {
+	text-transform: uppercase;
+}
+.mu .mu-i .mu-i-group .wrap-localtime {
+	text-transform: none;
+}
+.mu .mu-i .mu-i-datetime .wrap-localtime {
+	text-transform: none;
+}
+.mu .mu-i .mu-i-group {
+	font-weight: 700;
+}
+.mu .mu-m {
+	position: relative;
+}
+.mu .mu-m::before {
+	display: table; content: " ";
+}
+.mu .mu-m::after {
+	display: table; content: " ";
+}
+.mu .mu-m::after {
+	clear: both;
+}
+.mu .mu-m .t {
+	width: 44%;
+}
+.mu .mu-m > .mu-reasonwin {
+	text-align: center;
+}
+.mu .mu-m > .mu-reasonwin::before {
+	display: table; content: " ";
+}
+.mu .mu-m > .mu-reasonwin::after {
+	display: table; content: " ";
+}
+.mu .mu-m > .mu-reasonwin::after {
+	clear: both;
+}
+.mu .mu-m > .mu-reasonwin-abbr {
+	text-align: center;
+}
+.mu .mu-m > .mu-reasonwin-abbr::before {
+	display: table; content: " ";
+}
+.mu .mu-m > .mu-reasonwin-abbr::after {
+	display: table; content: " ";
+}
+.mu .mu-m > .mu-reasonwin-abbr::after {
+	clear: both;
+}
+.mu .mu-linkmore {
+	top: 0px; right: -20px; bottom: 0px; position: absolute;
+}
+.col-xs-12 .mu .mu-m-link {
+	min-height: 80px;
+}
+.col-xs-12 .mu .mu-day {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .mu .mu-i {
+	width: 232px; margin-right: 20px; min-height: 80px;
+}
+.col-xs-12 .mu .mu-i div {
+	line-height: 17px;
+}
+.col-xs-12 .mu .mu-i .mu-i-datetime {
+	margin-top: 5px;
+}
+.col-xs-12 .mu .mu-i .mu-i-date {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .mu .mu-i .mu-i-matchnum {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .mu .mu-i .mu-i-round {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .mu .mu-m {
+	margin-left: 272px;
+}
+.col-xs-12 .mu .mu-m .mu-reasonwin {
+	line-height: 18px; font-size: 11px;
+}
+.col-xs-12 .mu .mu-m .mu-reasonwin-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .mu .mu-more {
+	width: 64px; text-align: center; color: rgb(0, 135, 230); line-height: 80px; margin-left: 20px;
+}
+.col-xs-9 .mu .mu-m-link {
+	min-height: 80px;
+}
+.col-xs-9 .mu .mu-m-link:hover {
+	background-color: rgb(235, 235, 235);
+}
+.col-xs-9 .mu .mu-i {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-9 .mu .mu-day {
+	height: 80px; text-align: center; float: left; background-color: rgb(235, 235, 235);
+}
+.col-xs-9 .mu .mu-day .t-day {
+	width: 64px; display: block;
+}
+.col-xs-9 .mu .mu-day .t-month {
+	width: 64px; display: block;
+}
+.col-xs-9 .mu .mu-day .t-day {
+	line-height: 36px; padding-top: 15px; font-size: 36px;
+}
+.col-xs-9 .mu .mu-day .t-month {
+	text-transform: uppercase; line-height: 24px; font-size: 19px;
+}
+.col-xs-9 .mu .mu-m {
+	margin-left: 104px;
+}
+.col-xs-9 .mu .mu-m .mu-reasonwin {
+	line-height: 18px; font-size: 11px;
+}
+.col-xs-9 .mu .mu-m .mu-reasonwin-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-9 .mu .mu-linkmore {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-7 .mu .mu-m-link {
+	padding: 10px; margin-right: -10px; margin-left: -10px;
+}
+.article-mu .mu .mu-m-link {
+	padding: 10px; margin-right: -10px; margin-left: -10px;
+}
+.col-xs-7 .mu .mu-m-link .s-status {
+	color: rgb(102, 102, 102);
+}
+.article-mu .mu .mu-m-link .s-status {
+	color: rgb(102, 102, 102);
+}
+.col-xs-7 .mu .mu-m-link .mu-i {
+	color: rgb(102, 102, 102);
+}
+.article-mu .mu .mu-m-link .mu-i {
+	color: rgb(102, 102, 102);
+}
+.col-xs-7 .mu .mu-m-link:hover {
+	text-decoration: none;
+}
+.article-mu .mu .mu-m-link:hover {
+	text-decoration: none;
+}
+.col-xs-7 .mu .mu-day {
+	display: none !important; visibility: hidden !important;
+}
+.article-mu .mu .mu-day {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-7 .mu .mu-i {
+	height: 20px; line-height: 20px; font-size: 11px; float: none;
+}
+.article-mu .mu .mu-i {
+	height: 20px; line-height: 20px; font-size: 11px; float: none;
+}
+.col-xs-7 .mu .mu-i::before {
+	display: table; content: " ";
+}
+.article-mu .mu .mu-i::before {
+	display: table; content: " ";
+}
+.col-xs-7 .mu .mu-i::after {
+	display: table; content: " ";
+}
+.article-mu .mu .mu-i::after {
+	display: table; content: " ";
+}
+.col-xs-7 .mu .mu-i::after {
+	clear: both;
+}
+.article-mu .mu .mu-i::after {
+	clear: both;
+}
+.col-xs-7 .mu .mu-i .mu-i-datetime {
+	display: none !important; visibility: hidden !important;
+}
+.article-mu .mu .mu-i .mu-i-datetime {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-7 .mu .mu-i .mu-i-date {
+	margin-right: 10px; float: left;
+}
+.article-mu .mu .mu-i .mu-i-date {
+	margin-right: 10px; float: left;
+}
+.col-xs-7 .mu .mu-i .mu-i-group {
+	margin-right: 10px; float: left;
+}
+.article-mu .mu .mu-i .mu-i-group {
+	margin-right: 10px; float: left;
+}
+.col-xs-7 .mu .mu-i .mu-i-matchnum {
+	margin-right: 10px; float: left;
+}
+.article-mu .mu .mu-i .mu-i-matchnum {
+	margin-right: 10px; float: left;
+}
+.col-xs-7 .mu .mu-i .mu-i-round {
+	margin-right: 10px; float: left;
+}
+.article-mu .mu .mu-i .mu-i-round {
+	margin-right: 10px; float: left;
+}
+.col-xs-7 .mu .mu-i .mu-i-location {
+	margin-left: 10px; float: right;
+}
+.article-mu .mu .mu-i .mu-i-location {
+	margin-left: 10px; float: right;
+}
+.col-xs-7 .mu .mu-i .mu-i-stadium {
+	margin-left: 10px; float: right;
+}
+.article-mu .mu .mu-i .mu-i-stadium {
+	margin-left: 10px; float: right;
+}
+.col-xs-7 .mu .mu-i .mu-i-venue {
+	margin-left: 10px; float: right;
+}
+.article-mu .mu .mu-i .mu-i-venue {
+	margin-left: 10px; float: right;
+}
+.col-xs-7 .mu .mu-i .mu-i-group {
+	font-weight: normal;
+}
+.article-mu .mu .mu-i .mu-i-group {
+	font-weight: normal;
+}
+.col-xs-7 .mu .mu-m {
+	min-height: 80px;
+}
+.article-mu .mu .mu-m {
+	min-height: 80px;
+}
+.col-xs-7 .mu .mu-m .mu-reasonwin-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.article-mu .mu .mu-m .mu-reasonwin-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-7 .mu .mu-linkmore {
+	display: none !important; visibility: hidden !important;
+}
+.article-mu .mu .mu-linkmore {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .mu {
+	padding: 0px 10px;
+}
+.col-xs-4 .mu .mu-m-link {
+	margin: 0px -10px; padding: 0px 10px; height: 60px;
+}
+.col-xs-4 .mu .mu-day {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .mu .mu-i {
+	height: 60px; padding-right: 20px; float: left;
+}
+.col-xs-4 .mu .mu-i .mu-i-datetime {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .mu .mu-i .mu-i-group {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .mu .mu-i .mu-i-location {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .mu .mu-i .mu-i-matchnum {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .mu .mu-i .mu-i-round {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .mu .mu-i .mu-i-date {
+	width: 40px; text-transform: uppercase; line-height: 14px; font-size: 11px; margin-top: 20px;
+}
+.col-xs-4 .mu .mu-m {
+	height: 60px; margin-left: 60px;
+}
+.col-xs-4 .mu .mu-m .t {
+	width: 35%;
+}
+.col-xs-4 .mu .mu-m .s {
+	width: 30%;
+}
+.col-xs-4 .mu .mu-m .mu-reasonwin {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-4 .mu .mu-m .mu-reasonwin-abbr {
+	line-height: 11px; font-size: 11px; margin-bottom: 4px;
+}
+.col-xs-4 .mu .mu-linkmore {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-3 .mu {
+	border: currentColor; border-image: none; width: 196px; margin-bottom: 15px;
+}
+.col-xs-3 .mu .mu-m-link {
+	margin: 0px -10px; padding: 0px 10px; min-height: 40px;
+}
+.col-xs-3 .mu .mu-i {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-3 .mu .mu-day {
+	width: 40px; height: 40px; margin-right: 15px; vertical-align: middle; float: left; background-color: rgb(235, 235, 235);
+}
+.col-xs-3 .mu .mu-day .t-day {
+	width: 40px; text-align: center; display: block;
+}
+.col-xs-3 .mu .mu-day .t-month {
+	width: 40px; text-align: center; display: block;
+}
+.col-xs-3 .mu .mu-day .t-day {
+	line-height: 25px; font-size: 21px;
+}
+.col-xs-3 .mu .mu-day .t-month {
+	text-transform: uppercase; line-height: 12px; font-size: 12px;
+}
+.col-xs-3 .mu .mu-m {
+	margin-left: 55px; vertical-align: middle;
+}
+.col-xs-3 .mu .mu-m .t {
+	width: 35%;
+}
+.col-xs-3 .mu .mu-m .s {
+	width: 30%;
+}
+.col-xs-3 .mu .mu-m .mu-reasonwin {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-3 .mu .mu-m .mu-reasonwin-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-3 .mu .mu-linkmore {
+	display: none !important; visibility: hidden !important;
+}
+.bg-gray .col-xs-9 .mu .mu-m-link:hover {
+	background-color: rgb(255, 255, 255);
+}
+.bg-gray .col-xs-3 .mu .mu-m-link:hover {
+	background-color: rgb(255, 255, 255);
+}
+.bg-gray .col-xs-9 .mu .mu-day {
+	background-color: rgb(255, 255, 255);
+}
+.bg-gray .col-xs-3 .mu .mu-day {
+	background-color: rgb(255, 255, 255);
+}
+.mu-flag-3 .mu-m .t .t-i .t-i-wrap img.i-4-flag {
+	width: 32px; height: auto;
+}
+.mu-flag-3 .mu-m .t .t-i .t-i-wrap img.flag {
+	width: 32px; height: auto;
+}
+.mh-row {
+	padding-bottom: 20px; margin-right: -10px; margin-left: -10px;
+}
+.mh-row .header-wrap {
+	margin: 0px;
+}
+.mh-row .header-menu-simple {
+	padding-left: 10px; margin-right: -10px; margin-left: -10px; border-bottom-color: rgb(191, 191, 191); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.mh-row .header-menu-simple .qlink-list .qlink-link {
+	padding-right: 15px; display: inline-block; -ms-zoom: 1;
+}
+.mh-row .header-menu-simple .qlink-list .qlink-link .qlink-link-wrap .item {
+	line-height: 2.54;
+}
+.mh {
+	margin-top: 16px; position: relative;
+}
+.mh::before {
+	display: table; content: " ";
+}
+.mh::after {
+	display: table; content: " ";
+}
+.mh::after {
+	clear: both;
+}
+.mh > a {
+	text-decoration: none; display: block;
+}
+.mh .mh-i-report-hl {
+	top: 0px; right: 0px; position: absolute;
+}
+.mh .mh-i .mh-i-round {
+	text-align: center;
+}
+.mh .mh-i .mh-i-location-date {
+	text-align: center;
+}
+.mh .mh-i .mh-i-round .mh-i-datetime {
+	display: inline-block;
+}
+.mh .mh-i .mh-i-location-date .mh-i-datetime {
+	display: inline-block;
+}
+.mh .mh-i .mh-i-location-date span {
+	margin-right: 5px;
+}
+.mh .mh-i .mh-i-location-date .mh-i-date {
+	margin-right: 10px; display: inline;
+}
+.mh .mh-i .mh-i-round {
+	color: rgb(71, 71, 71); line-height: 14px; font-weight: 700; margin-bottom: 6px;
+}
+.mh .mh-m {
+	position: relative;
+}
+.mh .mh-m::before {
+	display: table; content: " ";
+}
+.mh .mh-m::after {
+	display: table; content: " ";
+}
+.mh .mh-m::after {
+	clear: both;
+}
+.mh .mh-m .t {
+	width: 44%; height: 50px; margin-top: 15px;
+}
+.mh .mh-m .t .t-i .t-i-wrap {
+	height: 50px;
+}
+.mh .mh-m .t .t-n .t-nText {
+	height: 50px;
+}
+.mh .mh-m .t .t-n .t-nText {
+	font-size: 30px;
+}
+.mh .mh-m .t .t-n .kern.t-nText {
+	font-size: 24px;
+}
+.mh .mh-m .s .s-score {
+	height: 35px;
+}
+.mh .mh-m .s .s-score .s-scoreText {
+	font-size: 32px; font-weight: 700;
+}
+.mh .mh-m .s .s-score .s-scoreText {
+	padding: 3px 8px; line-height: 1; display: inline-block;
+}
+.mh .mh-m .t-scorer {
+	width: 33%;
+}
+.mh .mh-m .t-scorer::before {
+	display: table; content: " ";
+}
+.mh .mh-m .t-scorer::after {
+	display: table; content: " ";
+}
+.mh .mh-m .t-scorer::after {
+	clear: both;
+}
+.mh .mh-m .t-scorer .ml-scorer-name {
+	float: left;
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p .p-i .flag {
+	display: none !important; visibility: hidden !important;
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p .p-n a {
+	color: rgb(71, 71, 71);
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p a {
+	color: rgb(71, 71, 71); text-decoration: none;
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p a:hover {
+	color: rgb(0, 135, 230);
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p a::after {
+	color: rgb(0, 135, 230);
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p a:visited::after {
+	color: rgb(0, 135, 230);
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p a:visited {
+	color: rgb(92, 172, 229);
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p a:visited * {
+	color: rgb(92, 172, 229);
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p a:hover:visited {
+	color: rgb(0, 135, 230);
+}
+.mh .mh-m .t-scorer .ml-scorer-name .p a:hover:visited * {
+	color: rgb(0, 135, 230);
+}
+.mh .mh-m .home.t-scorer {
+	padding-left: 63px; float: left;
+}
+.mh .mh-m .home.t-scorer .mh-l-scorers .mh-scorer {
+	float: left;
+}
+.mh .mh-m .home.t-scorer .mh-l-scorers .mh-scorer .ml-scorer-evmin {
+	font-weight: 700; margin-right: 10px; margin-left: 6px;
+}
+.mh .mh-m .away.t-scorer {
+	padding-right: 63px; float: right;
+}
+.mh .mh-m .away.t-scorer .mh-l-scorers .mh-scorer {
+	text-align: right; float: right;
+}
+.mh .mh-m .away.t-scorer .mh-l-scorers .mh-scorer .ml-scorer-name {
+	margin-left: 10px;
+}
+.mh .mh-m .away.t-scorer .mh-l-scorers .mh-scorer .ml-scorer-evmin {
+	font-weight: 700; margin-left: 6px;
+}
+.mh .mh-m > .mu-reasonwin {
+	margin: 0px auto; width: 33%; text-align: center; line-height: 18px; font-size: 11px;
+}
+.mh .mh-m > .mu-reasonwin::before {
+	display: table; content: " ";
+}
+.mh .mh-m > .mu-reasonwin::after {
+	display: table; content: " ";
+}
+.mh .mh-m > .mu-reasonwin::after {
+	clear: both;
+}
+.mh .mh-m > .mu-reasonwin-abbr {
+	display: none !important; visibility: hidden !important;
+}
+.live.mh .s-scoreText {
+	color: rgb(255, 255, 255); background-color: rgb(142, 198, 44);
+}
+.navbar-matchheader {
+	margin-bottom: 20px;
+}
+.navbar-matchheader .container {
+	min-height: 45px;
+}
+.navbar-matchheader .container .mh-row .header-wrap .title-wrap .title a {
+	display: inline;
+}
+.navbar-fixed-top.navbar-matchheader {
+	height: 119px;
+}
+.navbar-fixed-top.navbar-matchheader .container {
+	min-height: 119px;
+}
+.navbar-fixed-top.navbar-matchheader .container .mh-row {
+	padding-bottom: 0px;
+}
+.navbar-fixed-top.navbar-matchheader .container .mh-row .header-wrap {
+	display: none !important; visibility: hidden !important;
+}
+.navbar-fixed-top.navbar-matchheader .container .mh-row .mh {
+	border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.navbar-fixed-top.navbar-matchheader .container .mh-row .mh .mh-i {
+	display: none !important; visibility: hidden !important;
+}
+.navbar-fixed-top.navbar-matchheader .container .mh-row .mh .mh-m .t-scorer {
+	display: none !important; visibility: hidden !important;
+}
+.navbar-fixed-top.navbar-matchheader .container .mh-row .mh .mh-m .mu-reasonwin {
+	display: none !important; visibility: hidden !important;
+}
+.lineup .table {
+	border: currentColor; border-image: none; width: 100%; margin-bottom: 20px;
+}
+.squadlist .table {
+	border: currentColor; border-image: none; width: 100%; margin-bottom: 20px;
+}
+.lineup .table td {
+	border: currentColor; border-image: none; width: 50%; text-align: left;
+}
+.squadlist .table td {
+	border: currentColor; border-image: none; width: 50%; text-align: left;
+}
+.lineup .table th {
+	border: currentColor; border-image: none; width: 50%; text-align: left;
+}
+.squadlist .table th {
+	border: currentColor; border-image: none; width: 50%; text-align: left;
+}
+.lineup .officials.table td {
+	text-align: center;
+}
+.squadlist .officials.table td {
+	text-align: center;
+}
+.lineup .officials.table th {
+	text-align: center;
+}
+.squadlist .officials.table th {
+	text-align: center;
+}
+.lineup .substitutions.table td {
+	padding-right: 20px; position: relative;
+}
+.squadlist .substitutions.table td {
+	padding-right: 20px; position: relative;
+}
+.lineup .substitutions.table td .p-subs {
+	float: left;
+}
+.squadlist .substitutions.table td .p-subs {
+	float: left;
+}
+.lineup .substitutions.table td .p-subs .p-subs-in {
+	clear: both;
+}
+.squadlist .substitutions.table td .p-subs .p-subs-in {
+	clear: both;
+}
+.lineup .substitutions.table td .p-subs .p-subs-out {
+	clear: both;
+}
+.squadlist .substitutions.table td .p-subs .p-subs-out {
+	clear: both;
+}
+.lineup .substitutions.table td .p-subs .p-subs-in .p {
+	margin-right: 4px; float: left; display: block;
+}
+.squadlist .substitutions.table td .p-subs .p-subs-in .p {
+	margin-right: 4px; float: left; display: block;
+}
+.lineup .substitutions.table td .p-subs .p-subs-out .p {
+	margin-right: 4px; float: left; display: block;
+}
+.squadlist .substitutions.table td .p-subs .p-subs-out .p {
+	margin-right: 4px; float: left; display: block;
+}
+.lineup .substitutions.table td .p-lu-info {
+	margin-top: 10px; float: right;
+}
+.squadlist .substitutions.table td .p-lu-info {
+	margin-top: 10px; float: right;
+}
+.lineup .substitutions.table td .p-lu-info .substitution-out.event {
+	padding-top: 0px;
+}
+.squadlist .substitutions.table td .p-lu-info .substitution-out.event {
+	padding-top: 0px;
+}
+.lineup .substitutions.table td .p-lu-info .p-e .substitution-out {
+	background-position: left -266px;
+}
+.squadlist .substitutions.table td .p-lu-info .p-e .substitution-out {
+	background-position: left -266px;
+}
+.lineup .p-lu-info {
+	margin-left: 5px;
+}
+.squadlist .p-lu-info {
+	margin-left: 5px;
+}
+.lineup .p-lu-info .p-k {
+	margin-right: 4px;
+}
+.squadlist .p-lu-info .p-k {
+	margin-right: 4px;
+}
+.lineup .p-lu-info {
+	margin-left: 5px; display: inline-block;
+}
+.squadlist .p-lu-info {
+	margin-left: 5px; display: inline-block;
+}
+.lineup .p-lu-info::before {
+	display: table; content: " ";
+}
+.squadlist .p-lu-info::before {
+	display: table; content: " ";
+}
+.lineup .p-lu-info::after {
+	display: table; content: " ";
+}
+.squadlist .p-lu-info::after {
+	display: table; content: " ";
+}
+.lineup .p-lu-info::after {
+	clear: both;
+}
+.squadlist .p-lu-info::after {
+	clear: both;
+}
+.lineup .p-lu-info .p-k {
+	line-height: 18px; margin-right: 4px; vertical-align: top; display: inline-block;
+}
+.squadlist .p-lu-info .p-k {
+	line-height: 18px; margin-right: 4px; vertical-align: top; display: inline-block;
+}
+.lineup .p-lu-info .p-e {
+	font-weight: 700; display: inline-block;
+}
+.squadlist .p-lu-info .p-e {
+	font-weight: 700; display: inline-block;
+}
+.lineup .p-lu-info .p-e::before {
+	display: table; content: " ";
+}
+.squadlist .p-lu-info .p-e::before {
+	display: table; content: " ";
+}
+.lineup .p-lu-info .p-e::after {
+	display: table; content: " ";
+}
+.squadlist .p-lu-info .p-e::after {
+	display: table; content: " ";
+}
+.lineup .p-lu-info .p-e::after {
+	clear: both;
+}
+.squadlist .p-lu-info .p-e::after {
+	clear: both;
+}
+.lineup .p-lu-info .p-e span.event {
+	background-position: 0px 0px; width: 22px; height: 22px; padding-top: 2px; padding-left: 22px; margin-bottom: -4px; display: inline-block; background-image: url("http://img.fifa.com/images/layout/icons/events_ico_small.png?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.squadlist .p-lu-info .p-e span.event {
+	background-position: 0px 0px; width: 22px; height: 22px; padding-top: 2px; padding-left: 22px; margin-bottom: -4px; display: inline-block; background-image: url("http://img.fifa.com/images/layout/icons/events_ico_small.png?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.lineup .p-lu-info .p-e span.goal.event {
+	background-position: left -22px; margin-right: 2px;
+}
+.squadlist .p-lu-info .p-e span.goal.event {
+	background-position: left -22px; margin-right: 2px;
+}
+.lineup .p-lu-info .p-e span.penalty-wrong.event {
+	background-position: left -44px;
+}
+.squadlist .p-lu-info .p-e span.penalty-wrong.event {
+	background-position: left -44px;
+}
+.lineup .p-lu-info .p-e span.penalty.event {
+	background-position: left -66px;
+}
+.squadlist .p-lu-info .p-e span.penalty.event {
+	background-position: left -66px;
+}
+.lineup .p-lu-info .p-e span.goal-penalty.event {
+	background-position: left -66px;
+}
+.squadlist .p-lu-info .p-e span.goal-penalty.event {
+	background-position: left -66px;
+}
+.lineup .p-lu-info .p-e span.goal-own.event {
+	background-position: left -88px;
+}
+.squadlist .p-lu-info .p-e span.goal-own.event {
+	background-position: left -88px;
+}
+.lineup .p-lu-info .p-e span.first-start.event {
+	background-position: left -110px;
+}
+.squadlist .p-lu-info .p-e span.first-start.event {
+	background-position: left -110px;
+}
+.lineup .p-lu-info .p-e span.first-end.event {
+	background-position: left -132px;
+}
+.squadlist .p-lu-info .p-e span.first-end.event {
+	background-position: left -132px;
+}
+.lineup .p-lu-info .p-e span.second-start.event {
+	background-position: left -154px;
+}
+.squadlist .p-lu-info .p-e span.second-start.event {
+	background-position: left -154px;
+}
+.lineup .p-lu-info .p-e span.second-end.event {
+	background-position: left -176px;
+}
+.squadlist .p-lu-info .p-e span.second-end.event {
+	background-position: left -176px;
+}
+.lineup .p-lu-info .p-e span.yellow-card.event {
+	background-position: left -198px;
+}
+.squadlist .p-lu-info .p-e span.yellow-card.event {
+	background-position: left -198px;
+}
+.lineup .p-lu-info .p-e span.red-card.event {
+	background-position: left -220px;
+}
+.squadlist .p-lu-info .p-e span.red-card.event {
+	background-position: left -220px;
+}
+.lineup .p-lu-info .p-e span.yellow-card-second.event {
+	background-position: left -242px;
+}
+.squadlist .p-lu-info .p-e span.yellow-card-second.event {
+	background-position: left -242px;
+}
+.lineup .p-lu-info .p-e span.substitution-in-out.event {
+	background-position: left -264px;
+}
+.squadlist .p-lu-info .p-e span.substitution-in-out.event {
+	background-position: left -264px;
+}
+.lineup .p-lu-info .p-e span.substitution-out.event {
+	background-position: left -286px; width: 40px;
+}
+.squadlist .p-lu-info .p-e span.substitution-out.event {
+	background-position: left -286px; width: 40px;
+}
+.lineup .p-lu-info .p-e span.halftime.substitution-out.event {
+	width: 80px;
+}
+.squadlist .p-lu-info .p-e span.halftime.substitution-out.event {
+	width: 80px;
+}
+.lineup .p-lu-info .p-e span.substitution-in.event {
+	background-position: left -308px; width: 40px; line-height: 16px;
+}
+.squadlist .p-lu-info .p-e span.substitution-in.event {
+	background-position: left -308px; width: 40px; line-height: 16px;
+}
+.lineup .p-lu-info .p-e span.halftime.substitution-in.event {
+	width: 80px;
+}
+.squadlist .p-lu-info .p-e span.halftime.substitution-in.event {
+	width: 80px;
+}
+.lineup .p-lu-info .p-e span.match-report.event {
+	background-position: left -330px;
+}
+.squadlist .p-lu-info .p-e span.match-report.event {
+	background-position: left -330px;
+}
+.playersOnThePitch .table {
+	border: currentColor; border-image: none; width: 100%; margin-bottom: 20px;
+}
+.playersOnThePitch .table td {
+	border: currentColor; border-image: none; width: 50%; text-align: left;
+}
+.playersOnThePitch .table th {
+	border: currentColor; border-image: none; width: 50%; text-align: left;
+}
+.playersOnThePitch .table td + td {
+	text-align: right;
+}
+.playersOnThePitch .table th + th {
+	text-align: right;
+}
+.playersOnThePitch .pitched.table td.home > div {
+	float: left;
+}
+.playersOnThePitch .pitched.table td.away > div {
+	float: right;
+}
+.playersOnThePitch .pitched.table td.home:hover {
+	background-color: rgb(245, 245, 245);
+}
+.playersOnThePitch .pitched.table td.away:hover {
+	background-color: rgb(245, 245, 245);
+}
+.playersOnThePitch .table .t {
+	height: 50px; position: relative;
+}
+.playersOnThePitch .table .p {
+	line-height: 16px; font-size: 12px; position: relative;
+}
+.playersOnThePitch .table .p::before {
+	display: table; content: " ";
+}
+.playersOnThePitch .table .p::after {
+	display: table; content: " ";
+}
+.playersOnThePitch .table .p::after {
+	clear: both;
+}
+.playersOnThePitch .table .p .p-i {
+	top: 50%; height: 20px; margin-top: -10px; position: absolute;
+}
+.playersOnThePitch .table .p .p-i .p-i-bibnum {
+	width: 24px; color: rgb(153, 153, 153); line-height: 18px; text-indent: 3px; font-size: 14px; display: block;
+}
+.playersOnThePitch .table .p .p-i .p-i-bibnum .p-k {
+	line-height: 14px;
+}
+.playersOnThePitch .table .p .p-i .flag {
+	display: none !important; visibility: hidden !important;
+}
+.playersOnThePitch .table .p .p-n a {
+	color: rgb(71, 71, 71); text-decoration: none;
+}
+.playersOnThePitch .table .p .p-n a:hover {
+	color: rgb(0, 135, 230);
+}
+.playersOnThePitch .table .p .p-n a::after {
+	color: rgb(0, 135, 230);
+}
+.playersOnThePitch .table .p .p-n a:visited::after {
+	color: rgb(0, 135, 230);
+}
+.playersOnThePitch .table .p .p-n a:visited {
+	color: rgb(92, 172, 229);
+}
+.playersOnThePitch .table .p .p-n a:visited * {
+	color: rgb(92, 172, 229);
+}
+.playersOnThePitch .table .p .p-n a:hover:visited {
+	color: rgb(0, 135, 230);
+}
+.playersOnThePitch .table .p .p-n a:hover:visited * {
+	color: rgb(0, 135, 230);
+}
+.playersOnThePitch .table .p-lu-info {
+	height: 14px;
+}
+.playersOnThePitch .table .p-lu-info .p-k {
+	line-height: 14px; font-size: 10px; vertical-align: top; display: inline-block;
+}
+.playersOnThePitch .table td {
+	padding: 4px 0px;
+}
+.playersOnThePitch .table th {
+	padding: 4px 0px;
+}
+.playersOnThePitch .table td.home {
+	padding-top: 3px; padding-bottom: 3px; padding-left: 24px;
+}
+.playersOnThePitch .table th.home {
+	padding-top: 3px; padding-bottom: 3px; padding-left: 24px;
+}
+.playersOnThePitch .table td.home .p-lu-info {
+	margin-left: 5px;
+}
+.playersOnThePitch .table th.home .p-lu-info {
+	margin-left: 5px;
+}
+.playersOnThePitch .table td.home .p-lu-info .p-k {
+	margin-right: 4px;
+}
+.playersOnThePitch .table th.home .p-lu-info .p-k {
+	margin-right: 4px;
+}
+.playersOnThePitch .table td.home .p .p-i {
+	left: -24px;
+}
+.playersOnThePitch .table th.home .p .p-i {
+	left: -24px;
+}
+.playersOnThePitch .table td.away {
+	padding: 3px 24px 3px 0px;
+}
+.playersOnThePitch .table th.away {
+	padding: 3px 24px 3px 0px;
+}
+.playersOnThePitch .table td.away .p-lu-info {
+	margin-right: 5px;
+}
+.playersOnThePitch .table th.away .p-lu-info {
+	margin-right: 5px;
+}
+.playersOnThePitch .table td.away .p-lu-info .p-k {
+	margin-left: 4px;
+}
+.playersOnThePitch .table th.away .p-lu-info .p-k {
+	margin-left: 4px;
+}
+.playersOnThePitch .table td.away .p .p-i {
+	right: -24px;
+}
+.playersOnThePitch .table th.away .p .p-i {
+	right: -24px;
+}
+.playersOnThePitch .table td.away .p .p-n a {
+	text-align: right;
+}
+.playersOnThePitch .table th.away .p .p-n a {
+	text-align: right;
+}
+.playersOnThePitch .table td.away .p-i-bibnum {
+	text-align: center;
+}
+.playersOnThePitch .table th.away .p-i-bibnum {
+	text-align: center;
+}
+.col-xs-8 .lineup .t {
+	height: 50px; position: relative;
+}
+.col-xs-12 .lineup .t {
+	height: 50px; position: relative;
+}
+.col-xs-8 .squadlist .t {
+	height: 50px; position: relative;
+}
+.col-xs-12 .squadlist .t {
+	height: 50px; position: relative;
+}
+.col-xs-8 .lineup .t .t-n {
+	margin-left: 36px;
+}
+.col-xs-12 .lineup .t .t-n {
+	margin-left: 36px;
+}
+.col-xs-8 .squadlist .t .t-n {
+	margin-left: 36px;
+}
+.col-xs-12 .squadlist .t .t-n {
+	margin-left: 36px;
+}
+.col-xs-8 .lineup .t .t-n .t-nText {
+	height: 50px; line-height: 22px; font-size: 19px;
+}
+.col-xs-12 .lineup .t .t-n .t-nText {
+	height: 50px; line-height: 22px; font-size: 19px;
+}
+.col-xs-8 .squadlist .t .t-n .t-nText {
+	height: 50px; line-height: 22px; font-size: 19px;
+}
+.col-xs-12 .squadlist .t .t-n .t-nText {
+	height: 50px; line-height: 22px; font-size: 19px;
+}
+.col-xs-8 .lineup .t .t-n .t-nTri {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .lineup .t .t-n .t-nTri {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-8 .squadlist .t .t-n .t-nTri {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .squadlist .t .t-n .t-nTri {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-8 .lineup .t .i-2.t-i .t-i-wrap {
+	height: 50px;
+}
+.col-xs-12 .lineup .t .i-2.t-i .t-i-wrap {
+	height: 50px;
+}
+.col-xs-8 .squadlist .t .i-2.t-i .t-i-wrap {
+	height: 50px;
+}
+.col-xs-12 .squadlist .t .i-2.t-i .t-i-wrap {
+	height: 50px;
+}
+.col-xs-8 .lineup .t .i-2.t-i .t-i-wrap .flag {
+	width: 26px;
+}
+.col-xs-12 .lineup .t .i-2.t-i .t-i-wrap .flag {
+	width: 26px;
+}
+.col-xs-8 .squadlist .t .i-2.t-i .t-i-wrap .flag {
+	width: 26px;
+}
+.col-xs-12 .squadlist .t .i-2.t-i .t-i-wrap .flag {
+	width: 26px;
+}
+.col-xs-8 .lineup .p {
+	line-height: 22px; font-size: 16px; display: inline-block; position: relative;
+}
+.col-xs-12 .lineup .p {
+	line-height: 22px; font-size: 16px; display: inline-block; position: relative;
+}
+.col-xs-8 .squadlist .p {
+	line-height: 22px; font-size: 16px; display: inline-block; position: relative;
+}
+.col-xs-12 .squadlist .p {
+	line-height: 22px; font-size: 16px; display: inline-block; position: relative;
+}
+.col-xs-8 .lineup .p::before {
+	display: table; content: " ";
+}
+.col-xs-12 .lineup .p::before {
+	display: table; content: " ";
+}
+.col-xs-8 .squadlist .p::before {
+	display: table; content: " ";
+}
+.col-xs-12 .squadlist .p::before {
+	display: table; content: " ";
+}
+.col-xs-8 .lineup .p::after {
+	display: table; content: " ";
+}
+.col-xs-12 .lineup .p::after {
+	display: table; content: " ";
+}
+.col-xs-8 .squadlist .p::after {
+	display: table; content: " ";
+}
+.col-xs-12 .squadlist .p::after {
+	display: table; content: " ";
+}
+.col-xs-8 .lineup .p::after {
+	clear: both;
+}
+.col-xs-12 .lineup .p::after {
+	clear: both;
+}
+.col-xs-8 .squadlist .p::after {
+	clear: both;
+}
+.col-xs-12 .squadlist .p::after {
+	clear: both;
+}
+.col-xs-8 .lineup .p .p-i {
+	left: -36px; top: 50%; height: 20px; margin-top: -10px; position: absolute;
+}
+.col-xs-12 .lineup .p .p-i {
+	left: -36px; top: 50%; height: 20px; margin-top: -10px; position: absolute;
+}
+.col-xs-8 .squadlist .p .p-i {
+	left: -36px; top: 50%; height: 20px; margin-top: -10px; position: absolute;
+}
+.col-xs-12 .squadlist .p .p-i {
+	left: -36px; top: 50%; height: 20px; margin-top: -10px; position: absolute;
+}
+.col-xs-8 .lineup .p .p-i .p-i-bibnum {
+	width: 36px; color: rgb(153, 153, 153); line-height: 20px; text-indent: 3px; font-size: 18px; display: block;
+}
+.col-xs-12 .lineup .p .p-i .p-i-bibnum {
+	width: 36px; color: rgb(153, 153, 153); line-height: 20px; text-indent: 3px; font-size: 18px; display: block;
+}
+.col-xs-8 .squadlist .p .p-i .p-i-bibnum {
+	width: 36px; color: rgb(153, 153, 153); line-height: 20px; text-indent: 3px; font-size: 18px; display: block;
+}
+.col-xs-12 .squadlist .p .p-i .p-i-bibnum {
+	width: 36px; color: rgb(153, 153, 153); line-height: 20px; text-indent: 3px; font-size: 18px; display: block;
+}
+.col-xs-8 .lineup .p .p-i .flag {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .lineup .p .p-i .flag {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-8 .squadlist .p .p-i .flag {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-12 .squadlist .p .p-i .flag {
+	display: none !important; visibility: hidden !important;
+}
+.col-xs-8 .lineup .p .p-n a {
+	color: rgb(71, 71, 71); text-decoration: none;
+}
+.col-xs-12 .lineup .p .p-n a {
+	color: rgb(71, 71, 71); text-decoration: none;
+}
+.col-xs-8 .squadlist .p .p-n a {
+	color: rgb(71, 71, 71); text-decoration: none;
+}
+.col-xs-12 .squadlist .p .p-n a {
+	color: rgb(71, 71, 71); text-decoration: none;
+}
+.col-xs-8 .lineup .p .p-n a:hover {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .lineup .p .p-n a:hover {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .squadlist .p .p-n a:hover {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .squadlist .p .p-n a:hover {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .lineup .p .p-n a::after {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .lineup .p .p-n a::after {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .squadlist .p .p-n a::after {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .squadlist .p .p-n a::after {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .lineup .p .p-n a:visited::after {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .lineup .p .p-n a:visited::after {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .squadlist .p .p-n a:visited::after {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .squadlist .p .p-n a:visited::after {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .lineup .p .p-n a:visited {
+	color: rgb(92, 172, 229);
+}
+.col-xs-12 .lineup .p .p-n a:visited {
+	color: rgb(92, 172, 229);
+}
+.col-xs-8 .squadlist .p .p-n a:visited {
+	color: rgb(92, 172, 229);
+}
+.col-xs-12 .squadlist .p .p-n a:visited {
+	color: rgb(92, 172, 229);
+}
+.col-xs-8 .lineup .p .p-n a:visited * {
+	color: rgb(92, 172, 229);
+}
+.col-xs-12 .lineup .p .p-n a:visited * {
+	color: rgb(92, 172, 229);
+}
+.col-xs-8 .squadlist .p .p-n a:visited * {
+	color: rgb(92, 172, 229);
+}
+.col-xs-12 .squadlist .p .p-n a:visited * {
+	color: rgb(92, 172, 229);
+}
+.col-xs-8 .lineup .p .p-n a:hover:visited {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .lineup .p .p-n a:hover:visited {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .squadlist .p .p-n a:hover:visited {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .squadlist .p .p-n a:hover:visited {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .lineup .p .p-n a:hover:visited * {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .lineup .p .p-n a:hover:visited * {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .squadlist .p .p-n a:hover:visited * {
+	color: rgb(0, 135, 230);
+}
+.col-xs-12 .squadlist .p .p-n a:hover:visited * {
+	color: rgb(0, 135, 230);
+}
+.col-xs-8 .p-subs {
+	width: 200px;
+}
+.match-report .match-report-header {
+	height: 80px; color: rgb(46, 46, 46);
+}
+.match-report .match-report-header .address {
+	width: 80%; float: left;
+}
+.match-report .match-report-header .address h2 {
+	text-transform: uppercase; font-weight: 700; float: left;
+}
+.match-report .match-report-header .address span {
+	line-height: 30px; font-size: 16px; font-style: italic; margin-left: 5px; float: left;
+}
+.match-report .match-report-header .address .text-address {
+	text-align: right; line-height: 19px; font-size: 11px; float: right;
+}
+.match-report .match-report-header .logo-report {
+	background-position: 0px 0px; width: 110px; height: 55px; float: right; background-image: url("http://img.fifa.com/images/layout/brand/fifa_b.png?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.match-report .match-info .match-name-result {
+	height: 26px; margin-bottom: 20px;
+}
+.match-report .match-info .match-name-result .match-round {
+	width: 100%; text-align: right; color: rgb(0, 0, 128); line-height: 14px; font-size: 14px; font-weight: 700;
+}
+.match-report .match-info .match-name-result .match-name {
+	width: 50%; color: rgb(0, 0, 128); line-height: 26px; font-size: 24px; font-weight: 700;
+}
+.match-report .match-info .match-name-result .result {
+	width: 50%; color: rgb(0, 0, 128); line-height: 26px; font-size: 24px; font-weight: 700;
+}
+.match-report .match-info .match-name-result .match-name {
+	float: left;
+}
+.match-report .match-info .match-name-result .result {
+	text-align: right; float: right;
+}
+.match-report .match-info .match-data {
+	float: left;
+}
+.match-report .match-info .match-data thead th {
+	text-align: left; color: rgb(71, 71, 71); font-weight: 700;
+}
+.match-report .match-info .match-data tbody td {
+	text-align: left; color: rgb(0, 0, 128); font-weight: 700;
+}
+.match-report .match-official h3 {
+	color: rgb(0, 0, 128); font-weight: 700;
+}
+.match-report .match-scorers h3 {
+	color: rgb(0, 0, 128); font-weight: 700;
+}
+.match-report .match-ycards h3 {
+	color: rgb(0, 0, 128); font-weight: 700;
+}
+.match-report .match-rcards h3 {
+	color: rgb(0, 0, 128); font-weight: 700;
+}
+.match-report .penalty h3 {
+	color: rgb(0, 0, 128); font-weight: 700;
+}
+.match-report .match-official .people .people-kind-name {
+	text-align: left;
+}
+.match-report .match-official .people .people-name {
+	text-align: left;
+}
+.match-report .match-official .people .people-kind-name {
+	font-weight: 700;
+}
+.match-report .match-scorers {
+	margin-bottom: 20px;
+}
+.match-report .lineup .table td {
+	height: 25px;
+}
+.match-report .lineup .team-name .t .t-i .t-i-wrap {
+	height: auto;
+}
+.match-report .lineup .team-name .t .t-i .t-i-wrap .flag {
+	width: 32px;
+}
+.match-report .lineup .team-name .t .t-n {
+	margin-left: 42px;
+}
+.match-report .lineup .team-name .t .t-n .t-nText {
+	height: auto; color: rgb(0, 0, 128); font-weight: 700;
+}
+.match-report .lineup .p {
+	line-height: 1.54; font-size: 13px;
+}
+.match-report .lineup .p-lu-info .p-e span {
+	background: none; padding-left: 0px;
+}
+.match-report .lineup .match-people {
+	line-height: 1.54; font-size: 13px;
+}
+.match-report .match-ycards {
+	margin-bottom: 20px;
+}
+.match-report .match-rcards {
+	margin-bottom: 20px;
+}
+.match-report .penalty .p .p-i .p-i-bibnum {
+	width: 25px;
+}
+.match-report .legend .table td {
+	color: rgb(153, 153, 153); line-height: 19px; font-size: 12px;
+}
+.match-report .legend .table td.abbr {
+	text-align: right;
+}
+.match-report .legend .table td.desc {
+	text-align: left; padding-left: 13px;
+}
+.brackets-wrap {
+	position: relative;
+}
+.brackets-wrap .winner-wrap {
+	left: 50%; top: 82px; width: 180px; text-align: center; line-height: 18px; font-size: 14px; margin-left: -90px; position: absolute;
+}
+.brackets-wrap .winner-wrap .bt-name {
+	line-height: 18px; font-size: 16px; font-weight: bold;
+}
+.brackets-wrap > table {
+	width: 100%; table-layout: fixed;
+}
+.brackets-wrap > table .header-wrap th {
+	padding-bottom: 3px;
+}
+.brackets-wrap > table .header-wrap th > span {
+	text-align: center; color: rgb(102, 102, 102); line-height: 60px; font-size: 14px; font-weight: normal; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 3px; border-bottom-style: solid; display: block; position: relative;
+}
+.brackets-wrap > table .header-wrap th:hover > span {
+	color: rgb(0, 135, 230); border-bottom-color: rgb(0, 135, 230);
+}
+.brackets-wrap > table .header-wrap th.highlighted > span {
+	color: rgb(0, 135, 230); border-bottom-color: rgb(0, 135, 230);
+}
+.brackets-wrap > table .header-wrap th:hover > span::before {
+	font-weight: normal;
+}
+.brackets-wrap > table .header-wrap th.highlighted > span::before {
+	font-weight: normal;
+}
+.brackets-wrap > table .header-wrap th:hover > span > .before {
+	font-weight: normal;
+}
+.brackets-wrap > table .header-wrap th.highlighted > span > .before {
+	font-weight: normal;
+}
+.brackets-wrap > table .content-wrap {
+	background: rgb(242, 242, 242);
+}
+.brackets-wrap > table .content-wrap .round-col {
+	padding: 15px 0px;
+}
+.brackets-wrap > table .content-wrap .highlighted.round-col {
+	background: rgb(217, 217, 217);
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap {
+	position: relative;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .bt {
+	position: relative;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .bt > span {
+	background: rgb(255, 255, 255); padding: 8px 0px; left: 0px; right: 0px; line-height: 16px; font-size: 14px; display: block; position: absolute; z-index: 1;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .home.bt > span {
+	top: 0px;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .away.bt > span {
+	bottom: 0px;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .winner.bt {
+	font-weight: bold;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .highlighted.bt {
+	color: white;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .highlighted.bt > span {
+	background: rgb(0, 135, 230);
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .winner.highlighted.bt {
+	border-color: rgb(0, 135, 230);
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .m-row-wrap {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .not-fake.m-row-wrap:hover {
+	background: white;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .m-row-wrap .m-row {
+	left: 8px; top: 50%; height: 100px; right: 8px; margin-top: -50px; vertical-align: middle; display: table-cell; position: absolute;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .m-row-wrap .m-row .mu > a:hover {
+	background-color: transparent;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .m-row-wrap .m-row .mu .s-status {
+	display: none !important; visibility: hidden !important;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .m-row-wrap .m-row .mu .mu-reasonwin {
+	display: none !important; visibility: hidden !important;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .cnnctr {
+	background-position: 0px 0px; top: 50%; width: 16px; height: 12px; margin-top: -4px; position: absolute; z-index: 1; background-image: url("http://img.fifa.com/images/layout/icons/bracket_arrows.png?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.brackets-wrap > table .content-wrap .round-col .m-wrap .highlighted.cnnctr {
+	height: 8px; background-image: none; background-color: rgb(0, 135, 230);
+}
+.brackets-wrap > table .content-wrap .col-left.round-col .m-wrap {
+	margin-right: 8px;
+}
+.brackets-wrap > table .content-wrap .col-left.round-col .m-wrap .bt {
+	border-right-color: rgb(255, 255, 255); border-right-width: 8px; border-right-style: solid;
+}
+.brackets-wrap > table .content-wrap .col-left.round-col .m-wrap .bt > span {
+	right: -8px;
+}
+.brackets-wrap > table .content-wrap .col-left.round-col .m-wrap .m-row {
+	left: 0px;
+}
+.brackets-wrap > table .content-wrap .col-left.round-col .m-wrap .cnnctr {
+	background-position: 8px 0px; right: -8px;
+}
+.brackets-wrap > table .content-wrap .col-right.round-col .m-wrap {
+	margin-left: 8px;
+}
+.brackets-wrap > table .content-wrap .col-right.round-col .m-wrap .bt {
+	border-left-color: rgb(255, 255, 255); border-left-width: 8px; border-left-style: solid;
+}
+.brackets-wrap > table .content-wrap .col-right.round-col .m-wrap .bt > span {
+	left: -8px;
+}
+.brackets-wrap > table .content-wrap .col-right.round-col .m-wrap .m-row {
+	right: 0px;
+}
+.brackets-wrap > table .content-wrap .col-right.round-col .m-wrap .cnnctr {
+	background-position: 2px -12px; left: -8px;
+}
+.brackets-wrap > table .content-wrap .col-final.round-col .m-final.m-wrap {
+	bottom: 15px; position: absolute;
+}
+.brackets-wrap > table .content-wrap .col-final.round-col .m-wrap .bt {
+	height: 82px; border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 8px; border-left-width: 8px; border-right-style: solid; border-left-style: solid;
+}
+.brackets-wrap > table .content-wrap .col-final.round-col .m-wrap .bt > span {
+	left: -8px; right: -8px;
+}
+.brackets-wrap > table .content-wrap .col-final.round-col .m-wrap .highlighted.bt {
+	border-color: white;
+}
+.brackets-wrap > table .content-wrap .col-final.round-col .m-wrap .force-left.highlighted.bt {
+	border-left-color: rgb(0, 135, 230); border-left-width: 8px; border-left-style: solid;
+}
+.brackets-wrap > table .content-wrap .col-final.round-col .m-wrap .force-right.highlighted.bt {
+	border-right-color: rgb(0, 135, 230); border-right-width: 8px; border-right-style: solid;
+}
+.brackets-wrap > table .content-wrap .col-final.round-col .m-wrap .cnnctr {
+	display: none;
+}
+.brackets-wrap > table .content-wrap .col-lev-1.round-col .m-wrap .bt {
+	height: 200px;
+}
+.brackets-wrap > table .content-wrap .col-lev-1.round-col .m-wrap .cnnctr {
+	width: 24px;
+}
+.brackets-wrap > table .content-wrap .col-right.col-lev-1.round-col .m-wrap .cnnctr {
+	background-position: 10px -12px; left: -16px;
+}
+.brackets-wrap > table .content-wrap .col-left.col-lev-1.round-col .m-wrap .cnnctr {
+	right: -16px;
+}
+.brackets-wrap > table .content-wrap .col-lev-2.round-col .m-wrap .bt {
+	height: 108px;
+}
+.brackets-wrap > table .content-wrap .col-lev-2.round-col .m-wrap + .m-wrap {
+	margin-top: 150px;
+}
+.brackets-wrap > table .content-wrap .col-lev-3.round-col .m-wrap .bt {
+	height: 82px;
+}
+.brackets-wrap > table .content-wrap .col-lev-3.round-col .m-wrap + .m-wrap {
+	margin-top: 20px;
+}
+.cols-7.brackets-wrap > table .content-wrap .col-final.round-col .m-wrap {
+	width: 144px;
+}
+.match-list-bracket .mu-day .t-day {
+	margin-right: 5px;
+}
+.m-galleries-wrap .m-galleries {
+	overflow: hidden;
+}
+.m-galleries-wrap .m-galleries .m-gallery {
+	min-height: 210px;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb {
+	position: relative;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb:hover img {
+	opacity: 0.5;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb .m-thumb-count {
+	right: 0px; bottom: 10px; line-height: 27px; padding-right: 26px; padding-left: 6px; font-size: 13px; position: absolute; background-color: white;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb .m-thumb-count::after {
+	top: 50%; width: 16px; height: 16px; text-align: center; right: 5px; color: inherit; line-height: 16px; font-family: "fifa-icons"; font-size: 16px; font-style: normal; font-weight: normal; margin-top: -8px; position: absolute; content: "\e60e"; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb .m-thumb-count > .after {
+	top: 50%; width: 16px; height: 16px; text-align: center; right: 5px; color: inherit; line-height: 16px; font-family: "fifa-icons"; font-size: 16px; font-style: normal; font-weight: normal; margin-top: -8px; position: absolute; content: "\e60e"; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb .m-thumb-count:hover {
+	text-decoration: none;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb .m-thumb-count::before {
+	border-width: 0px 0px 27px 11px; border-style: solid; border-color: rgb(255, 255, 255) rgba(255, 255, 255, 0); left: -11px; top: 0px; width: 0px; position: absolute; content: "";
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb .m-thumb-count > .before {
+	border-width: 0px 0px 27px 11px; border-style: solid; border-color: rgb(255, 255, 255) rgba(255, 255, 255, 0); left: -11px; top: 0px; width: 0px; position: absolute; content: "";
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu {
+	display: inline-block; -ms-zoom: 1;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu .mu {
+	padding: 0px;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu .mu > a {
+	background-color: transparent;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu .mu > a .s-status-abbr {
+	display: block !important; white-space: nowrap; visibility: visible !important;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu .mu > a .s-score {
+	color: rgb(102, 102, 102); line-height: 21px; font-size: 18px;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu .mu .mu-day {
+	display: block !important; visibility: visible !important;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu .mu .t {
+	height: auto;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu .mu .t .t-n {
+	margin: 0px;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu .mu .t .t-n .t-nTri {
+	height: auto; line-height: 21px; font-size: 14px; display: block !important; visibility: visible !important;
+}
+.m-galleries-wrap .m-galleries .m-gallery .m-thumb-mu .mu .t .t-i .t-i-wrap {
+	height: auto;
+}
+.m-galleries-wrap .dcm-listnav {
+	margin: 20px 0px;
+}
+.navbar-teamheader {
+	height: 103px;
+}
+.navbar-teamheader .container {
+	height: 102px;
+}
+.navbar-teamheader .adv-mxlib-wrap {
+	margin-top: 5px; float: right; display: inline;
+}
+.team-map .team-groups {
+	top: 10px; right: 20px; position: absolute;
+}
+.team-map .team-groups li {
+	background-position: 0px -45px; width: 36px; height: 36px; text-align: center; color: rgb(255, 255, 255); padding-top: 7px; float: left; cursor: pointer; background-image: url("http://img.fifa.com/images/layout/teams/mapElements.png?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.team-map .team-groups li:hover {
+	background-position: 0px 0px; color: rgb(0, 135, 230);
+}
+.team-map .team-groups li.selected {
+	background-position: 0px 0px; color: rgb(0, 135, 230);
+}
+.team-map .team-groups li.selected.first {
+	background-position: left -123px;
+}
+.team-map .team-groups li.selected.first span {
+	background-position: right -124px; color: rgb(102, 102, 102);
+}
+.team-map .team-groups li.first {
+	background-position: left -210px; width: auto; color: rgb(102, 102, 102); margin-right: 30px; background-repeat: no-repeat;
+}
+.team-map .team-groups li.first:hover {
+	background-position: left -123px;
+}
+.team-map .team-groups li.first:hover span {
+	background-position: right -124px; color: rgb(102, 102, 102);
+}
+.team-map .team-groups li.first span {
+	background-position: right -211px; width: auto; height: 36px; text-align: right; color: rgb(255, 255, 255); padding-top: 5px; padding-right: 23px; margin-top: -6px; margin-right: -24px; margin-left: 23px; display: block; background-image: url("http://img.fifa.com/images/layout/teams/mapElements.png?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.trn-item-wrap {
+	background: rgb(245, 245, 245); position: relative;
+}
+.trn-item-wrap::before {
+	display: table; content: " ";
+}
+.trn-item-wrap::after {
+	display: table; content: " ";
+}
+.trn-item-wrap::after {
+	clear: both;
+}
+.trn-item-wrap > a {
+	color: rgb(102, 102, 102);
+}
+.trn-item-wrap .trn-item-logo {
+	float: left;
+}
+.trn-item-wrap .trn-item-name {
+	padding: 10px; line-height: 20px; font-size: 18px; font-weight: lighter; margin-left: 100px;
+}
+.trn-item-wrap .trn-item-name h4 {
+	height: 94px; padding-bottom: 30px;
+}
+.trn-item-wrap .trn-item-name h4 a {
+	color: rgb(71, 71, 71); text-decoration: none;
+}
+.trn-item-wrap .trn-item-name h4 a:hover {
+	color: rgb(0, 135, 230);
+}
+.trn-item-wrap .trn-item-name h4 a::after {
+	color: rgb(0, 135, 230);
+}
+.trn-item-wrap .trn-item-name h4 a:visited::after {
+	color: rgb(0, 135, 230);
+}
+.trn-item-wrap .trn-item-name h4 a:visited {
+	color: rgb(92, 172, 229);
+}
+.trn-item-wrap .trn-item-name h4 a:visited * {
+	color: rgb(92, 172, 229);
+}
+.trn-item-wrap .trn-item-name h4 a:hover:visited {
+	color: rgb(0, 135, 230);
+}
+.trn-item-wrap .trn-item-name h4 a:hover:visited * {
+	color: rgb(0, 135, 230);
+}
+.trnmnt-browser {
+	margin: 0px;
+}
+.trnmnt-browser .slider-nav {
+	height: 50px; position: relative;
+}
+.trnmnt-browser .trn-item-wrap {
+	padding: 32px 0px 4px;
+}
+.trnmnt-browser .trn-item-wrap .trn-item-status {
+	color: white; line-height: 24px; font-size: 11px; font-weight: bold;
+}
+.trnmnt-browser .trn-item-wrap .trn-item-date {
+	color: white; line-height: 24px; font-size: 11px; font-weight: bold;
+}
+.trnmnt-browser .trn-item-wrap .trn-item-status {
+	background: rgb(245, 245, 245); left: 0px; top: 0px; padding-right: 2px; position: absolute; z-index: 1;
+}
+.trnmnt-browser .trn-item-wrap .trn-item-status::before {
+	border-width: 24px 11px 0px 0px; border-style: solid; border-color: rgb(245, 245, 245) rgba(245, 245, 245, 0); top: 0px; width: 0px; right: -11px; position: absolute; content: "";
+}
+.trnmnt-browser .trn-item-wrap .trn-item-status > .before {
+	border-width: 24px 11px 0px 0px; border-style: solid; border-color: rgb(245, 245, 245) rgba(245, 245, 245, 0); top: 0px; width: 0px; right: -11px; position: absolute; content: "";
+}
+.trnmnt-browser .trn-item-wrap .trn-item-status > span {
+	padding: 0px 5px; display: block; background-color: rgb(71, 71, 71);
+}
+.trnmnt-browser .trn-item-wrap .trn-item-status > span::before {
+	border-width: 24px 11px 0px 0px; border-style: solid; border-color: rgb(71, 71, 71) rgba(71, 71, 71, 0); top: 0px; width: 0px; right: -9px; position: absolute; content: "";
+}
+.trnmnt-browser .trn-item-wrap .trn-item-status > span > .before {
+	border-width: 24px 11px 0px 0px; border-style: solid; border-color: rgb(71, 71, 71) rgba(71, 71, 71, 0); top: 0px; width: 0px; right: -9px; position: absolute; content: "";
+}
+.trnmnt-browser .live.trn-item-wrap .trn-item-status > span {
+	background-color: rgb(142, 198, 44);
+}
+.trnmnt-browser .live.trn-item-wrap .trn-item-status > span::before {
+	border-color: rgb(142, 198, 44) rgba(142, 198, 44, 0);
+}
+.trnmnt-browser .live.trn-item-wrap .trn-item-status > span > .before {
+	border-color: rgb(142, 198, 44) rgba(142, 198, 44, 0);
+}
+.trnmnt-browser .trn-item-wrap .trn-item-date {
+	background: rgb(71, 71, 71); left: 0px; top: 0px; width: 100%; height: 24px; text-align: right; right: 0px; padding-right: 10px; position: absolute;
+}
+.trnmnt-browser .slider-wrap .slider-list {
+	height: auto;
+}
+.trnmnt-browser .slider-wrap .slider-list > li {
+	height: auto; cursor: default;
+}
+.trnmnt-browser .slider-wrap .slider-list > li.selected {
+	border: currentColor; border-image: none;
+}
+.trnmnt-browser .slider-wrap .slider-list > li:hover::before {
+	display: none; content: none;
+}
+.trnmnt-browser .slider-wrap .slider-list > li:hover > .before {
+	display: none; content: none;
+}
+.ranking-wrap h4 {
+	padding: 10px 0px; color: rgb(153, 153, 153); text-transform: uppercase; line-height: 1.14; letter-spacing: 1px; font-size: 14px; font-weight: 700;
+}
+.ranking-wrap .tbl-ranking {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.ranking-wrap .tbl-ranking thead > tr > th {
+	padding: 0px; color: rgb(102, 102, 102); line-height: 20px; font-size: 11px;
+}
+.ranking-wrap .tbl-ranking tfoot > tr > th {
+	padding: 0px; color: rgb(102, 102, 102); line-height: 20px; font-size: 11px;
+}
+.ranking-wrap .tbl-ranking thead > tr > td {
+	padding: 0px; color: rgb(102, 102, 102); line-height: 20px; font-size: 11px;
+}
+.ranking-wrap .tbl-ranking tfoot > tr > td {
+	padding: 0px; color: rgb(102, 102, 102); line-height: 20px; font-size: 11px;
+}
+.ranking-wrap .tbl-ranking tbody > tr .tbl-rank {
+	line-height: 24px; font-size: 18px; font-weight: bold;
+}
+.ranking-wrap .tbl-ranking tbody > tr .tbl-teamname {
+	text-align: left; line-height: 24px; font-size: 13px;
+}
+.ranking-wrap .tbl-ranking tbody > tr .tbl-teamname .flag-wrap > img {
+	height: 24px; margin-right: 5px;
+}
+.ranking-wrap .tbl-ranking tbody > tr .tbl-points {
+	line-height: 24px; font-size: 13px; font-weight: bold;
+}
+.ranking-wrap .tbl-ranking tbody > tr .tbl-prevrank {
+	line-height: 24px; font-size: 13px; font-weight: bold;
+}
+.ranking-wrap .tbl-ranking tbody > tr .tbl-prevrank-icon {
+	padding-top: 10px;
+}
+.ranking-wrap .tbl-ranking tbody > tr .tbl-prevrank-icon > span {
+	background-position: -6px -72px; width: 18px; height: 18px; display: inline-block; -ms-zoom: 1; background-image: url("http://img.fifa.com/images/layout/icons/moversIcons.png?v=130487182925765039"); background-repeat: no-repeat; background-color: transparent;
+}
+.ranking-wrap .tbl-ranking tbody > tr .tbl-prevrank-icon > span.rank-rise {
+	background-position: -6px -100px;
+}
+.ranking-wrap .tbl-ranking tbody > tr .tbl-prevrank-icon > span.rank-fall {
+	background-position: -6px -128px;
+}
+.ranking-wrap .tbl-ranking tfoot > tr > td {
+	text-align: left;
+}
+.ranking-wrap .tbl-ranking .last-update-wrap {
+	text-align: left;
+}
+.associations-items-wrap .dcm-thumblist {
+	padding-top: 50px;
+}
+.associations-items-wrap .dcm-thumblist .figure {
+	margin-bottom: 10px;
+}
+.ma-latestresults h4.title {
+	color: rgb(153, 153, 153); text-transform: uppercase; line-height: 1.14; letter-spacing: 1px; padding-top: 10px; padding-bottom: 10px; font-size: 14px; font-weight: 700;
+}
+.ma-latestresults .ma-fixtures-wrap {
+	margin-top: 20px;
+}
+.ma-latestresults .ma-logo {
+	width: 50px; height: 50px; float: left; display: block;
+}
+.ma-latestresults .ma-data-wrap {
+	float: right; display: block;
+}
+.ma-latestresults .ma-data-wrap .ma-ddl {
+	width: 100%;
+}
+.ma-latestresults .ma-world-ranking {
+	margin-top: 10px;
+}
+.ma-latestresults .ma-world-ranking .ma-ranking-value {
+	font-weight: bold; margin-left: 5px;
+}
+.ma-latestresults .results-wrap {
+	margin-top: 10px;
+}
+.ma-latestresults .results-wrap h4 {
+	line-height: 19px; font-size: 12px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ma-latestresults .results-wrap .mu .mu-i-date {
+	display: none !important; visibility: hidden !important;
+}
+.ma-latestresults .results-wrap .mu .mu-m {
+	margin-left: 0px;
+}
+.ma-latestresults .results-wrap .mu .mu-m .t .flag {
+	width: 32px; height: auto;
+}
+.navbar-playerheader.navbar-pageheader .fdh-wrap > h1 {
+	text-transform: none;
+}
+.navbar-playerheader.navbar-pageheader .fdh-bib {
+	margin: 9px; color: rgb(46, 46, 46); font-size: 28px; font-weight: 700; float: left;
+}
+.p-list .p {
+	overflow: hidden; position: relative;
+}
+.p-list .p .p-i {
+	vertical-align: middle; display: table-cell;
+}
+.p-list .p .p-n {
+	vertical-align: middle; display: table-cell;
+}
+.p-list .p-i.p .p-i .picture-wrap {
+	left: 0px; top: 0px; overflow: hidden; position: absolute;
+}
+.p-list .p .p-i .p-i-bibnum {
+	width: 16px; text-align: right; display: inline-block;
+}
+.p-list .p .p-n a:hover {
+	text-decoration: none;
+}
+.p-list .p .p-n a:hover * {
+	text-decoration: none;
+}
+.p-list .p:hover {
+	background: rgb(0, 135, 230); color: rgb(255, 255, 255);
+}
+.p-list .p:hover * {
+	color: rgb(255, 255, 255);
+}
+.team-players-list .p-list {
+	
+}
+.team-players-list .p-list .p {
+	border: currentColor; border-image: none; width: 328px; height: 84px; float: left; position: relative;
+}
+.team-players-list .p-list .p:hover {
+	color: inherit; background-color: inherit;
+}
+.team-players-list .p-list .p:hover * {
+	color: inherit;
+}
+.team-players-list .p-list .p:hover .p-n-webname {
+	color: rgb(0, 135, 230);
+}
+.team-players-list .p-list .p .p-ag {
+	left: 124px; top: 41px; font-size: 11px; display: none; position: absolute;
+}
+.team-players-list .p-list .p .p-wh {
+	left: 124px; top: 54px; font-size: 11px; display: none; position: absolute;
+}
+.team-players-list .p-list .p .p-i {
+	padding: 0px; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.team-players-list .p-list .p .p-n {
+	padding: 0px; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.team-players-list .p-list .p .p-i .picture-wrap {
+	border-radius: 50%; border: 2px solid rgb(0, 135, 230); border-image: none; left: 0px; top: 0px; width: 68px; height: 68px; overflow: hidden; position: absolute;
+}
+.team-players-list .p-list .p .p-n .picture-wrap {
+	border-radius: 50%; border: 2px solid rgb(0, 135, 230); border-image: none; left: 0px; top: 0px; width: 68px; height: 68px; overflow: hidden; position: absolute;
+}
+.team-players-list .p-list .p .p-i .picture-wrap img.player {
+	width: 64px; height: auto;
+}
+.team-players-list .p-list .p .p-n .picture-wrap img.player {
+	width: 64px; height: auto;
+}
+.team-players-list .p-list .p .p-i .p-i-bibnum {
+	left: 84px; top: 0px; width: 36px; height: 32px; text-align: left; color: rgb(0, 135, 230); line-height: 32px; font-size: 30px; display: block; position: absolute;
+}
+.team-players-list .p-list .p .p-n .p-i-bibnum {
+	left: 84px; top: 0px; width: 36px; height: 32px; text-align: left; color: rgb(0, 135, 230); line-height: 32px; font-size: 30px; display: block; position: absolute;
+}
+.team-players-list .p-list .p .p-i .p-n-webname {
+	left: 124px; top: 4px; line-height: 15px; font-size: 15px; position: absolute;
+}
+.team-players-list .p-list .p .p-n .p-n-webname {
+	left: 124px; top: 4px; line-height: 15px; font-size: 15px; position: absolute;
+}
+.team-players-list .p-list .p .p-i .p-n-webname:hover {
+	color: rgb(0, 135, 230); text-decoration: underline;
+}
+.team-players-list .p-list .p .p-n .p-n-webname:hover {
+	color: rgb(0, 135, 230); text-decoration: underline;
+}
+.team-players-list .p-list .p .p-i .p-i-fieldpos {
+	left: 124px; top: 35px; font-size: 12px; position: absolute;
+}
+.team-players-list .p-list .p .p-n .p-i-fieldpos {
+	left: 124px; top: 35px; font-size: 12px; position: absolute;
+}
+.team-players-list .p-list .p .p-i .p-i-clubname {
+	left: 124px; top: 48px; font-size: 12px; position: absolute;
+}
+.team-players-list .p-list .p .p-n .p-i-clubname {
+	left: 124px; top: 48px; font-size: 12px; position: absolute;
+}
