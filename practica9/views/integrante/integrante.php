@@ -1,13 +1,40 @@
 <?php 
-  session_start();
+  include ('../../libs/adodb5/adodb-pager.inc.php');
+  include ('../../libs/adodb5/adodb.inc.php');
+  include ('../../models/Conexion.php');
+  include ('../../models/Modelo.php');
+  include ('../../models/Usuario.php');
+  include ('../../models/Integrante.php');
+  include ('../../models/Entrenador.php');
+  include ('../../models/Jugador.php');
+  include ('../../controllers/IntegranteController.php');
+  include ('../../controllers/EntrenadorController.php');
+  include ('../../controllers/JugadorController.php');
+  include ('../../libs/Er.php');
   include ('../layouts/header.php');
+  
+  if(isset($_POST['nombre']))
+  {
+	  $integranteC = new IntegranteController();
+	  $integranteC->insertaIntegrante($_POST);
+  }
+  if(isset($_POST['idpais']))
+  {
+	  $entrenadorC = new EntrenadorController();
+	  $entrenadorC->insertaEntrenador($_POST);
+  }
+  if(isset($_POST['numero']))
+  {
+	  $jugadorC = new JugadorController();
+	  $jugadorC->insertaJugador($_POST);
+  }
 ?>
 	<br /><br />
     <h2>Registro Integrantes</h2><hr>
 	<div class="container">
     	<div class="row">
             <div class="col-md-6">
-                <form role="form" id="formIntegrante">
+                <form role="form" id="formIntegrante" method="POST">
                   <div class="form-group">
                     <label for="nombre">Nombre</label>
                     <input type="text" class="form-control" id="nombre" placeholder="Nombre del integrante" name="nombre">
@@ -31,23 +58,13 @@
                   </div>
                   <div class="form-group">
                     <label for="Edad">Edad</label>
-                    <input type="number" class="form-control" id="Edad" name="Edad">
+                    <input type="text" class="form-control" id="Edad" name="Edad">
                   </div>
-                  <div class="form-group">
-                    <label for="idequipo">Continente</label>
-                    <div class="dropdown">
-                      <button class="btn btn-default dropdown-toggle" type="button" id="idequipo" data-toggle="dropdown" name="idequipo">
-                        Seleccionar
-                        <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-                        <li role="presentation" class="divider"></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-                      </ul>
-                    </div>
+				  <div class="form-group">
+                    <label for="idequipo">Equipo</label>
+                    <select class="form-control" id="idequipo" name="idequipo">
+                    	<option value="1">M&eacute;xico</option>
+                    </select>
                   </div>
                   <div class="form-group">
               <div class="radio">
@@ -74,19 +91,10 @@
                 <input type="number" class="form-control" id="numero" placeholder="Número de la playera" name="numero">
               </div>
               <div class="form-group">
-              	Posici&oacute;n
-              <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="idposicion" data-toggle="dropdown" name="idposicion">
-                    Seleccionar
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Defensa</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Delantero</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Portero</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Lateral</a></li>
-                  </ul>
-              </div>
+                    <label for="idposicion">Posici&oacute;n</label>
+                    <select clas="form-control" id="idposicion" name="idposicion">
+                    	<option value="1">Delantero</option>
+                    </select>
               </div>
           </div>
           </div>
@@ -94,9 +102,11 @@
           <div class="col-md-6">
           <h3>Entrenador</h3>
               <div class="form-group">
-                <label for="idpais">Pa&iacute;s</label>
-                <input type="text" class="form-control" id="idpais" placeholder="Nacionalidad del entrenador" name="idpais">
-              </div>
+                    <label for="idpais">Equipo</label>
+                    <select class="form-control" id="idpais" name="idpais">
+                    	<option value="1" >M&eacute;xico</option>
+                    </select>
+                  </div>
           </div>
           </div>
           <button type="submit" class="btn btn-default">Guardar</button>

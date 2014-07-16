@@ -1,6 +1,6 @@
 <?php
 
-class Usuario extends Modelo{
+class Integrante extends Modelo{
     public $nombre_tabla = 'integrante';
     public $pk = 'idintegrante';
     
@@ -12,7 +12,7 @@ class Usuario extends Modelo{
 		'estatura'=>array(),
 		'foto'=>array(),
 		'Edad'=>array(),
-		'idintegrante'=>array(),
+		'idequipo'=>array(),
     );
     
     public $errores = array( );
@@ -23,7 +23,7 @@ class Usuario extends Modelo{
 	private $estatura;
 	private $foto;
 	private $Edad;
-	private $idintegrante;
+	private $idequipo;
        
     
     function Integrante(){
@@ -69,7 +69,7 @@ class Usuario extends Modelo{
 
         $er = new Er();
         
-        if ( !$er->valida_apellido($valor) ){
+        if ( !$er->valida_nombre($valor) ){
             $this->errores[] = "Este apellido (".$valor.") no es valido";
         }
 
@@ -91,7 +91,7 @@ class Usuario extends Modelo{
 
         $er = new Er();
         
-        if ( !$er->valida_peso($valor) ){
+        if ( !$er->valida_flotante($valor) ){
             $this->errores[] = "Este peso (".$valor.") no es valido";
         }
 
@@ -113,7 +113,7 @@ class Usuario extends Modelo{
 
         $er = new Er();
         
-        if ( !$er->valida_estatura($valor) ){
+        if ( !$er->valida_flotante($valor) ){
             $this->errores[] = "Esta estatura (".$valor.") no es valida";
         }
 
@@ -157,39 +157,39 @@ class Usuario extends Modelo{
 
         $er = new Er();
         
-        if ( !$er->valida_Edad($valor) ){
+        if ( !$er->valida_flotante($valor) ){
             $this->errores[] = "Esta Edad (".$valor.") no es valida";
         }
 
-        $rs = $this->consulta_sql("select * from integrante where Edad = '$valor'");
+        /*$rs = $this->consulta_sql("select * from integrante where Edad = '$valor'");
         $rows = $rs->GetArray();
         
-        /*if(count($rows) > 0){
+        if(count($rows) > 0){
             $this->errores[] = "Esta Edad (".$valor.") ya esta registrada"; 
         }else*/{
             $this->Edad = trim($valor);
         }
     }
 	
-	public function get_idintegrante(){
-        return $this->idintegrante;
+	public function get_idequipo(){
+        return $this->idequipo;
     }
 	
-	public function set_idintegrante($valor){
+	public function set_idequipo($valor){
 
         $er = new Er();
         
-        if ( !$er->valida_idintegrante($valor) ){
-            $this->errores[] = "Este integrante (".$valor.") no es va¿lido";
+        /*if ( !$er->valida_idequipo($valor) ){
+            $this->errores[] = "Este equipo (".$valor.") no es va¿lido";
         }
 
-        $rs = $this->consulta_sql("select * from integrante where idintegrante = '$valor'");
+        $rs = $this->consulta_sql("select * from integrante where idequipo = '$valor'");
         $rows = $rs->GetArray();
         
         /*if(count($rows) > 0){
             $this->errores[] = "Este integrante (".$valor.") ya esta registrado"; 
         }else*/{
-            $this->idintegrante = trim($valor);
+            $this->idequipo = trim($valor);
         }
     }
 

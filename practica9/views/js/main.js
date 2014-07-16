@@ -115,9 +115,6 @@ $(document).ready(function() {
 						validators: {
 							notEmpty: {
 								message: 'El campo Continente es obligatorio.'
-							},
-							emailAddress: {
-								message: 'Esa opción no es válida.'
 							}
 						}
 					}
@@ -197,7 +194,7 @@ $(document).ready(function() {
 				}
 			});
 			
-			$('#formIntegrante').bootstrapValidator({
+			/*$('#formIntegrante').bootstrapValidator({
         		message: 'This value is not valid',
 				feedbackIcons: {
 					valid: 'glyphicon glyphicon-ok',
@@ -262,7 +259,7 @@ $(document).ready(function() {
 
 						}
 					},
-					Edad: {
+					edad: {
 						validators: {
 							notEmpty: {
 								message: 'Debe llenarse el campo Edad'
@@ -304,7 +301,7 @@ $(document).ready(function() {
 						}
 					}
 				}
-			});
+			});*/
 			
 			$('#formEquipo').bootstrapValidator({
         		message: 'This value is not valid',
